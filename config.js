@@ -8,7 +8,7 @@ const CONFIG = {
 
     SETTINGS_PASSWORD_ENABLED: false,
 
-    SETTINGS_USERNAME: 'sahfas',
+    SETTINGS_USERNAME: 'mohamedraiyans',
     SETTINGS_PASSWORD: 'admin123',
 
 };

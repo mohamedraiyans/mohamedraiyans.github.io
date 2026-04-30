@@ -1,410 +1,335 @@
 {
     "profile": {
         "name": "Mohamed Raiyan",
-        "title": "Platform Automation Engineer",
-        "subtitle": "Platform Automation Engineer · Full Stack Developer",
-        "company": "Codification",
-        "tagline": "Building seamless automations & full-stack solutions that connect systems and empower businesses.",
-        "bio": "I am a full stack web developer & automation engineer with experience in various technologies and frameworks. I have expertise in PHP, MySQL, Laravel, and a wide range of automation platforms including Make.com, Zapier, n8n, and Odoo. I enjoy building dynamic, responsive systems that meet the needs of clients and users.",
-        "location": "Puttalam District, Sri Lanka",
-        "nationality": "Sri Lankan",
-        "dob": "06 August 1999",
-        "languages": "Tamil (Native) · English (C1)"
+        "title": "Senior Software Engineer",
+        "subtitle": "Backend Engineer · Full-Stack Developer · Applied AI",
+        "company": "Open to Work · Stockholm",
+        "tagline": "Building scalable backend systems, cloud-based APIs, and AI-driven solutions — 9+ years turning complex problems into clean, reliable software.",
+        "bio": "Senior Software Engineer with 9+ years of experience building scalable backend systems, cloud-based applications, and high-performance APIs. Skilled in Python, JavaScript, and PHP, with a strong track record in distributed systems, microservices, and AI-driven automation. Holds an MSc in Computer and Systems Sciences from Stockholm University. Currently based in Eskilstuna, Sweden and seeking a software engineering role to build reliable, innovative products.",
+        "location": "Eskilstuna, Sweden",
+        "nationality": "Swedish Resident 🇸🇪",
+        "dob": "MSc · Stockholm University",
+        "languages": "English (Fluent) · Swedish (Learning)"
     },
     "contact": {
-        "phone": "+767516351",
-        "phoneDisplay": "(+46) 767 516351",
+        "phone": "+46767516351",
+        "phoneDisplay": "+46 767 516 351",
         "email": "raiyanmfm@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/raiyans/",
-        "linkedinDisplay": "linkedin.com/in/raiyans"
+        "linkedin": "https://www.linkedin.com/in/mohamedraiyans/",
+        "linkedinDisplay": "linkedin.com/in/mohamedraiyans"
     },
     "stats": [
         {
-            "count": 3,
+            "count": 9,
             "suffix": "+",
             "label": "Years Experience"
         },
         {
-            "count": 5,
-            "suffix": "+",
-            "label": "Major Projects"
+            "count": 500,
+            "suffix": "K+",
+            "label": "Daily API Requests"
         },
         {
-            "count": 6,
-            "suffix": "+",
-            "label": "Automation Platforms"
+            "count": 60,
+            "suffix": "%",
+            "label": "Manual Work Reduced"
         },
         {
-            "count": 3,
+            "count": 1,
             "suffix": "",
-            "label": "Recommendations"
+            "label": "MSc Computer Science"
         }
     ],
     "sections": {
         "skills": {
             "title": "Core Skills & Tools",
             "card": {
-                "description": "Make.com, Zapier, n8n, PHP, Laravel, JavaScript, MySQL, AWS and more.",
+                "description": "Python, FastAPI, Django, Docker, LLMs, React, Laravel, PostgreSQL, Azure and more.",
                 "tags": [
-                    "Automation",
                     "Backend",
-                    "Frontend",
+                    "AI/ML",
+                    "Full-Stack",
                     "DevOps"
                 ]
             },
             "nodes": [
                 {
-                    "id": "automation",
+                    "id": "python",
                     "type": "trigger",
-                    "label": "Automation Platforms",
-                    "icon": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/make.svg",
-                    "x": -20.892733564013835,
-                    "y": 256.60640138408303,
+                    "label": "Python",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "x": -20,
+                    "y": 256,
                     "operations": "Expert",
-                    "tooltip": "Cross-platform workflow automation specialist",
-                    "details": "<h2>Workflow Automation</h2><p>Extensive experience cross-connecting platforms, designing resilient architectures, and managing mass data flows.</p><ul><li>Make.com</li><li>Zapier</li><li>n8n</li><li>Activepieces</li><li>Workato</li><li>Boostspace</li></ul>"
+                    "tooltip": "Primary language — FastAPI, Django, AI/ML pipelines",
+                    "details": "<h2>Python</h2><p>Primary language across all backend and AI work. Used in production systems handling 500K+ daily API requests.</p><ul><li>FastAPI — high-performance REST APIs</li><li>Django — backend web applications</li><li>OpenAI API & LLM/SLM integration</li><li>NLP & image recognition pipelines</li><li>Data processing & automation scripts</li></ul>"
+                },
+                {
+                    "id": "ai",
+                    "type": "action",
+                    "label": "AI / LLMs",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg",
+                    "x": 260,
+                    "y": 120,
+                    "operations": "AI/ML",
+                    "tooltip": "OpenAI, LLM/SLM integration, NLP, image recognition",
+                    "details": "<h2>AI & LLM Engineering</h2><p>Integrated large and small language models into production services, reducing manual intervention by 60%.</p><ul><li>OpenAI API integration</li><li>LLM/SLM — classify & process high-volume data</li><li>Custom NLP models</li><li>Image recognition pipelines</li><li>MSc Thesis: Sketch-based UI generation with GenAI</li></ul>"
                 },
                 {
                     "id": "backend",
                     "type": "action",
-                    "label": "Backend Dev",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-                    "x": 260.89273356401384,
-                    "y": 144.65397923875432,
-                    "operations": "PHP/C#",
-                    "tooltip": "PHP, Laravel, ASP.NET MVC, REST APIs",
-                    "details": "<h2>Backend Engineering</h2><p>Designing robust server-side applications and microservices.</p><ul><li>PHP & Laravel</li><li>ASP.NET MVC & C#</li><li>REST API integrations</li><li>Scripting (Python, Selenium)</li></ul>",
-                    "_bary": 0
-                },
-                {
-                    "id": "frontend",
-                    "type": "action",
-                    "label": "Frontend Dev",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                    "label": "Backend & APIs",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
                     "x": 260,
-                    "y": 375,
-                    "operations": "JS",
-                    "tooltip": "JavaScript, jQuery, Angular, Bootstrap",
-                    "details": "<h2>Frontend Interfaces</h2><p>Building responsive and interactive web applications.</p><ul><li>JavaScript / jQuery / AJAX</li><li>HTML5 / CSS3 / Bootstrap</li><li>DataTables integration</li><li>AngularJS</li></ul>",
-                    "_bary": 0
+                    "y": 390,
+                    "operations": "APIs",
+                    "tooltip": "FastAPI, Django, Node.js, REST APIs",
+                    "details": "<h2>Backend Engineering</h2><p>Designed and maintained scalable backend systems serving 500K+ API requests daily across distributed cloud infrastructure.</p><ul><li>FastAPI & Django (Python)</li><li>Node.js — internal tools & admin panels</li><li>RESTful API design & integration</li><li>Shopify, eBay, AWS third-party APIs</li><li>Microservices architecture</li></ul>"
                 },
                 {
                     "id": "database",
                     "type": "action",
                     "label": "Databases",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
                     "x": 540,
-                    "y": 256.6875,
-                    "operations": "SQL",
-                    "tooltip": "MySQL, SQL Server, schema design",
-                    "details": "<h2>Data Management</h2><p>Designing schemas and ensuring data integrity across high-volume systems.</p><ul><li>MySQL / phpMyAdmin</li><li>SQL Server</li><li>Architecture mapping</li></ul>",
-                    "_bary": 0.5
+                    "y": 256,
+                    "operations": "2TB+",
+                    "tooltip": "PostgreSQL, MySQL — 2TB+ databases managed",
+                    "details": "<h2>Databases</h2><p>Managed high-volume databases exceeding 2TB with automated backups and performance tuning.</p><ul><li>PostgreSQL & MySQL — 2TB+ production DBs</li><li>Automated backups & optimised indexing</li><li>Schema migrations & cross-site data syncing</li><li>NoSQL (Airtable, document stores)</li></ul>"
                 },
                 {
                     "id": "devops",
                     "type": "action",
-                    "label": "DevOps & Tools",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-                    "x": 805.7162629757786,
-                    "y": 256.20911548442905,
-                    "operations": "AWS/Git",
-                    "tooltip": "AWS, Git/GitHub, Odoo Enterprise",
-                    "details": "<h2>Infrastructure & VCS</h2><p>Deploying code safely and managing team repositories.</p><ul><li>Amazon Web Services (AWS)</li><li>Git / GitHub / CodeCommit</li><li>Odoo Enterprise Resources</li></ul>",
-                    "_bary": 0
+                    "label": "Docker / DevOps",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                    "x": 805,
+                    "y": 256,
+                    "operations": "DevOps",
+                    "tooltip": "Docker, CI/CD, Azure, monitoring dashboards",
+                    "details": "<h2>Docker & DevOps</h2><p>Containerised microservices and integrated Docker into CI/CD pipelines for consistent, automated deployments.</p><ul><li>Docker & Docker Compose — microservices</li><li>CI/CD pipelines — automated testing & deploys</li><li>Azure cloud services & infrastructure</li><li>Monitoring dashboards — uptime, health, errors</li><li>GitHub Actions & Git workflows</li></ul>"
                 }
             ],
             "connections": [
-                {
-                    "start": "automation",
-                    "end": "backend"
-                },
-                {
-                    "start": "automation",
-                    "end": "frontend"
-                },
-                {
-                    "start": "backend",
-                    "end": "database"
-                },
-                {
-                    "start": "frontend",
-                    "end": "database"
-                },
-                {
-                    "start": "database",
-                    "end": "devops"
-                }
+                { "start": "python", "end": "ai" },
+                { "start": "python", "end": "backend" },
+                { "start": "backend", "end": "database" },
+                { "start": "ai", "end": "database" },
+                { "start": "database", "end": "devops" }
             ]
         },
         "experience": {
             "title": "Work Experience",
             "card": {
-                "description": "From Imara Software Solutions to Codification — a journey through automation & software engineering.",
+                "description": "9+ years at Imara Software Solutions — from PHP developer to Senior Software Engineer & AI specialist.",
                 "tags": [
-                    "Codification",
-                    "Saltware",
-                    "Imara"
+                    "Python",
+                    "FastAPI",
+                    "Laravel",
+                    "AI/ML"
                 ]
             },
             "nodes": [
                 {
                     "id": "job1",
                     "type": "trigger",
-                    "label": "Automation Engineer",
+                    "label": "Senior Software Engineer",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-                    "x": 680,
+                    "x": 650,
                     "y": 300,
-                    "operations": "Current",
-                    "tooltip": "Codification (UAE) — July 2025+",
-                    "details": "<h2>Codification (UAE)</h2><p>July 2025 - Present</p><ul><li>Platform automations with Odoo, Slack, Make.com, Google Workspace and other tools.</li><li>Automations with python, php, and selenium.</li><li>Automations maintenance and monitoring.</li></ul>",
-                    "_bary": 0
+                    "operations": "2019–25",
+                    "tooltip": "Imara Software Solutions · Python / AI",
+                    "details": "<h2>Senior Software Engineer / Python Developer</h2><p><strong>Imara Software Solutions</strong> · Jan 2019 – Dec 2025</p><ul><li>Designed backend systems handling <strong>500K+ daily API requests</strong></li><li>Built FastAPI services integrating OpenAI & LLMs — reduced manual work by <strong>60%</strong></li><li>Python (Django), Node.js — React admin panels & internal tools</li><li>Containerised microservices with Docker into CI/CD pipelines</li><li>Managed <strong>2TB+ PostgreSQL/MySQL</strong> databases with automated backups</li><li>Integrated Shopify, eBay, AWS APIs for product sync & payments</li><li>Azure cloud infrastructure & deployment automation</li><li>Mentored junior developers & led sprint planning (Agile)</li><li>Low-code automation with Make.com & Bubble</li></ul>"
                 },
                 {
                     "id": "job2",
                     "type": "action",
-                    "label": "Software Engineer",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg",
-                    "x": 400,
+                    "label": "Software Developer",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+                    "x": 200,
                     "y": 300,
-                    "operations": "2024-25",
-                    "tooltip": "The Saltware (PVT) LTD — Sri Lanka",
-                    "details": "<h2>The Saltware (PVT) LTD (Sri Lanka)</h2><p>Sept 2024 - July 2025</p><ul><li>Software/web-applications programming</li><li>Bug fixing on web based ERP application</li><li>ASP.NET MVC, C#, JavaScript</li></ul>",
-                    "_bary": 0
-                },
-                {
-                    "id": "job3",
-                    "type": "action",
-                    "label": "Software Engineer",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg",
-                    "x": 120,
-                    "y": 300,
-                    "operations": "2022-24",
-                    "tooltip": "Imara Software Solutions — Sri Lanka",
-                    "details": "<h2>Imara Software Solutions (Sri Lanka)</h2><p>Aug 2022 - Aug 2024</p><ul><li>Built automation tools with selenium</li><li>Worked with all automation tools like make.com, zapier, activepieces, boostspace, n8n, workato</li><li>Software/web-applications programming</li></ul>"
+                    "operations": "2014–18",
+                    "tooltip": "Imara Software Solutions · PHP / Laravel",
+                    "details": "<h2>Software Developer</h2><p><strong>Imara Software Solutions</strong> · Nov 2014 – Dec 2018</p><ul><li>Built custom CMS solutions using PHP (Laravel, CodeIgniter) and WordPress</li><li>Dynamic web apps with HTML, CSS, JavaScript</li><li>Admin panels & e-commerce: product catalogues, cart, checkout flows</li><li>REST APIs — connected backend to frontend via AJAX/JSON</li><li>Git-based CI deployment workflows</li><li>MySQL — schema migrations & cross-site data syncing</li><li>SEO-optimised, mobile-responsive websites for SME clients</li></ul>"
                 }
             ],
             "connections": [
-                {
-                    "start": "job3",
-                    "end": "job2"
-                },
-                {
-                    "start": "job2",
-                    "end": "job1"
-                }
+                { "start": "job2", "end": "job1" }
             ]
         },
         "projects": {
             "title": "Major Projects",
             "card": {
-                "description": "AppraiserPal, ShopSync Pro, workflow automations, ERP systems and more.",
+                "description": "AI automation pipelines, IoT systems, sketch-based GenAI thesis, and full-stack platforms.",
                 "tags": [
-                    "Angular",
-                    "Laravel",
-                    "REST APIs",
-                    "Make.com"
+                    "Python",
+                    "FastAPI",
+                    "React",
+                    "GenAI"
                 ]
             },
             "nodes": [
                 {
                     "id": "proj1",
                     "type": "trigger",
-                    "label": "AppraiserPal",
-                    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
-                    "x": 400.00000000000006,
-                    "y": 141.71101299219208,
-                    "operations": "2023",
-                    "tooltip": "Property appraisal web app — Angular + Laravel",
-                    "details": "<h2>AppraiserPal</h2><p>Web application revolutionizing the property appraisal process with tracking and chat.</p><ul><li>AngularJS, Laravel, MySQL</li><li>AWS EC2 Integration</li></ul>"
+                    "label": "AI Data Pipeline",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "x": 400,
+                    "y": 130,
+                    "operations": "2022+",
+                    "tooltip": "FastAPI + OpenAI — 500K req/day, 60% automation gain",
+                    "details": "<h2>AI-Driven Data Pipeline</h2><p>Production system at Imara Software Solutions serving 500K+ API requests daily.</p><ul><li>FastAPI backend with OpenAI & LLM/SLM integration</li><li>NLP & image recognition to classify high-volume data</li><li>Reduced manual intervention by <strong>60%</strong></li><li>Docker containerised, Azure cloud deployed</li><li>Custom monitoring dashboard for uptime & error tracking</li></ul>"
                 },
                 {
                     "id": "proj2",
                     "type": "action",
-                    "label": "ShopSync Pro",
-                    "icon": "https://cdn-icons-png.flaticon.com/512/2933/2933116.png",
-                    "x": 502.86241915118285,
-                    "y": 458.2889870078079,
-                    "operations": "2023",
-                    "tooltip": "3000+ product migration via REST APIs",
-                    "details": "<h2>ShopSync Pro</h2><p>Effortlessly migrated a vast inventory of over 3000 products from Rock Safety to Unas.</p><ul><li>PHP Scripts & REST APIs</li><li>JSON/XML transformations</li></ul>"
+                    "label": "MSc Thesis — GenAI",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                    "x": 620,
+                    "y": 390,
+                    "operations": "2025",
+                    "tooltip": "Sketch-to-code UI generation using Generative AI",
+                    "details": "<h2>Programming Through Sketching</h2><p><em>Non-Linguistic Interaction with Generative AI</em> — MSc Thesis, Stockholm University (Grade: C)</p><ul><li>Novel sketch-based approach to UI programming with GenAI</li><li>Multimodal input: hand-drawn sketches → HTML/CSS/React code</li><li>Design Science Research (DSR) framework</li><li>Enhanced usability, creativity & developer control</li><li>Published: DiVA portal, Stockholm University 2025</li></ul>"
                 },
                 {
                     "id": "proj3",
                     "type": "action",
-                    "label": "StudentConnectX",
-                    "icon": "https://cdn-icons-png.flaticon.com/512/1256/1256650.png",
-                    "x": 608.9348903516518,
-                    "y": 187.63303897657633,
-                    "operations": "2023",
-                    "tooltip": "PHPBB forum upgrade 2.0 → 3.3",
-                    "details": "<h2>StudentConnectX</h2><p>Upgraded an existing student forum site from PHPBB 2.0 to PHPBB 3.3.</p><ul><li>MySQL, PhpMyAdmin</li><li>Enhanced search indexing</li></ul>"
+                    "label": "IoT Platform",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg",
+                    "x": 175,
+                    "y": 390,
+                    "operations": "2024",
+                    "tooltip": "Raspberry Pi + MQTT + Android — end-to-end IoT",
+                    "details": "<h2>End-to-End IoT Platform</h2><p>Built during MSc at Stockholm University — real-time sensor-actuator integration.</p><ul><li>Raspberry Pi & CircuitPython for sensor data capture</li><li>MQTT protocol for real-time messaging</li><li>Android app for remote actuator control</li><li>End-to-end IoT service with embedded systems</li></ul>"
                 },
                 {
                     "id": "proj4",
                     "type": "action",
-                    "label": "Workflow Automations",
-                    "icon": "https://cdn-icons-png.flaticon.com/512/2083/2083213.png",
-                    "x": 216.30424751548395,
-                    "y": 458.2889870078079,
-                    "operations": "2024",
-                    "tooltip": "Make.com + Zapier multi-platform flows",
-                    "details": "<h2>Make.com & Zapier Workflows</h2><p>Comprehensive automation project for workflow efficiency.</p><ul><li>WP Recipe plugin & data migration</li><li>Auth.net + Salesforce + QuickBooks sync</li><li>AI NLP integration</li></ul>"
+                    "label": "E-Commerce Platform",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+                    "x": 175,
+                    "y": 200,
+                    "operations": "2016–18",
+                    "tooltip": "Laravel e-commerce — cart, checkout, product catalogue",
+                    "details": "<h2>E-Commerce Platform</h2><p>Full-stack e-commerce solutions built for SME clients using Laravel and PHP.</p><ul><li>Product catalogue, cart & checkout flows</li><li>Admin panel with inventory management</li><li>REST API backend + AJAX frontend</li><li>MySQL database with optimised schema</li><li>Mobile-responsive & SEO-optimised</li></ul>"
                 },
                 {
                     "id": "proj5",
                     "type": "action",
-                    "label": "Trove & ITS ERP",
-                    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-                    "x": 233.56510964834817,
-                    "y": 262.6330389765763,
-                    "operations": "Current",
-                    "tooltip": "Laravel + ASP.NET ERP + Zoho CRM",
-                    "details": "<h2>Trove (Laravel) & ITS ERP (ASP.NET)</h2><p>Current complex systems development involving Zoho CRM integration and ERP system optimization.</p><ul><li>Zoho CRM API</li><li>Web Scraping</li><li>DataTables & Financial dashboards</li></ul>"
+                    "label": "Shopify / eBay Sync",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+                    "x": 630,
+                    "y": 200,
+                    "operations": "2021+",
+                    "tooltip": "Shopify, eBay, AWS — product sync & payment flow",
+                    "details": "<h2>Multi-Platform Commerce Integration</h2><p>Led third-party API integrations for product sync, order processing, and secure payments.</p><ul><li>Shopify & eBay API — product & order sync</li><li>AWS services integration</li><li>Secure payment flow implementation</li><li>Automated inventory management pipeline</li></ul>"
                 }
             ],
             "connections": [
-                {
-                    "start": "proj1",
-                    "end": "proj2"
-                },
-                {
-                    "start": "proj3",
-                    "end": "proj2"
-                },
-                {
-                    "start": "proj2",
-                    "end": "proj4"
-                },
-                {
-                    "start": "proj2",
-                    "end": "proj5"
-                }
+                { "start": "proj1", "end": "proj2" },
+                { "start": "proj1", "end": "proj5" },
+                { "start": "proj3", "end": "proj2" },
+                { "start": "proj4", "end": "proj1" }
             ]
         },
         "education": {
-            "title": "Education & Certifications",
+            "title": "Education",
             "card": {
-                "description": "Bachelor of IT from University of Colombo School of Computing (UCSC).",
+                "description": "MSc Computer & Systems Sciences (Stockholm University) + BSc Information Technology (Greenwich).",
                 "tags": [
-                    "UCSC",
-                    "B.I.T",
-                    "Foundation IT"
+                    "Stockholm University",
+                    "MSc",
+                    "AI/ML",
+                    "Greenwich"
                 ]
             },
             "nodes": [
                 {
                     "id": "edu1",
                     "type": "trigger",
-                    "label": "Foundation in IT",
+                    "label": "BSc Information Technology",
                     "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231662.png",
-                    "x": 200,
-                    "y": 250,
-                    "operations": "2016",
-                    "tooltip": "UCSC — Maths, English, ICT",
-                    "details": "<h2>Foundation in Information Technology</h2><p>University of Colombo School of Computing (UCSC)</p><ul><li>Mathematics</li><li>English Communication Skills</li><li>Information Communication Technology</li></ul>"
+                    "x": 150,
+                    "y": 280,
+                    "operations": "2013–14",
+                    "tooltip": "University of Greenwich — Web & DB Engineering",
+                    "details": "<h2>Bachelor's Degree in Information Technology</h2><p><strong>University of Greenwich</strong> · 2013 – 2014</p><ul><li>Web Engineering</li><li>Database Engineering</li><li>Programming Frameworks</li></ul>"
                 },
                 {
                     "id": "edu2",
                     "type": "action",
-                    "label": "B.I.T",
+                    "label": "MSc Computer Science",
                     "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231662.png",
                     "x": 600,
-                    "y": 250,
-                    "operations": "2017-21",
-                    "tooltip": "Bachelor of IT — UCSC",
-                    "details": "<h2>Bachelor of Information Technology</h2><p>University of Colombo School of Computing (UCSC)</p><ul><li>Software and applications development</li><li>Database and network design</li></ul>"
+                    "y": 280,
+                    "operations": "2023–25",
+                    "tooltip": "Stockholm University — ML, AI, IoT, Cyber Forensics",
+                    "details": "<h2>Master's Degree — Computer and Systems Sciences</h2><p><strong>Stockholm University</strong> · Sep 2023 – Oct 2025</p><ul><li>Machine Learning, AI, Data Mining</li><li>IoT Services, Information Security, Cyber Forensics</li><li>IT Management, ERP Systems, Research Methodology</li><li>IoT Labs: Raspberry Pi, CircuitPython, MQTT</li><li><strong>Thesis:</strong> Programming Through Sketching — Non-Linguistic Interaction with Generative AI (Grade: C)</li><li>Tools: React, Python, Java, Raspberry Pi, Android</li></ul>"
                 }
             ],
             "connections": [
-                {
-                    "start": "edu1",
-                    "end": "edu2"
-                }
+                { "start": "edu1", "end": "edu2" }
             ]
         },
         "recommendations": {
-            "title": "LinkedIn Recommendations",
+            "title": "Key Achievements",
             "card": {
-                "description": "What colleagues and mentors say — endorsements from LinkedIn professionals.",
+                "description": "Production scale, AI automation wins, and published research — highlights from 9+ years.",
                 "tags": [
-                    "LinkedIn",
-                    "3 Endorsements"
+                    "500K req/day",
+                    "60% Automation",
+                    "Published Research"
                 ]
             },
             "nodes": [
                 {
                     "id": "rec_source",
                     "type": "trigger",
-                    "label": "LinkedIn",
+                    "label": "Mohamed Raiyan",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-                    "x": 400.00000000000006,
-                    "y": 141.71101299219208,
-                    "operations": "4",
-                    "tooltip": "View recommendations from colleagues",
-                    "details": "<h2>LinkedIn Profile</h2><p>Platform Automation Engineer @ Codification</p><p>Puttalam District, Sri Lanka</p><ul><li><a href='https://www.linkedin.com/in/Raiyan/' target='_blank' style='color:var(--color-primary);'>View Full Profile →</a></li></ul>"
+                    "x": 400,
+                    "y": 150,
+                    "operations": "9+ yrs",
+                    "tooltip": "Senior Software Engineer · Stockholm, Sweden",
+                    "details": "<h2>Mohamed Raiyan</h2><p>Senior Software Engineer · Eskilstuna, Sweden</p><ul><li>📧 raiyanmfm@gmail.com</li><li>📞 +46 767 516 351</li><li><a href='https://www.linkedin.com/in/mohamedraiyans/' target='_blank' style='color:var(--color-primary);'>LinkedIn Profile →</a></li><li>MSc Computer and Systems Sciences — Stockholm University 2025</li></ul>"
                 },
                 {
                     "id": "rec1",
                     "type": "action",
-                    "label": "Ishthiyaque Ahmed",
+                    "label": "500K API req/day",
                     "icon": "",
-                    "x": 499.52908581784953,
-                    "y": 450.7889870078079,
-                    "operations": "Sep 2025",
-                    "tooltip": "Software Engineer & Automation Strategist",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>IA</div><h2>Ishthiyaque Ahmed (Ishthi)</h2><p class='rec-title'>Software Engineer &amp; Automation Strategist | Make, N8N &amp; AI</p><blockquote class='rec-quote'>&quot;Raiyan is a talented resource to any employer. During his tenure of career, I found him dynamic and fast learner despite any technology. He is a person who can understand the underpinning technical framework of the working platform or project. I wish him all the best.&quot;</blockquote><span class='rec-date'>September 30, 2025</span></div>"
+                    "x": 160,
+                    "y": 380,
+                    "operations": "Scale",
+                    "tooltip": "Designed backend systems at production scale",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>⚡</div><h2>Production Scale</h2><p class='rec-title'>Imara Software Solutions · 2019–2025</p><blockquote class='rec-quote'>Designed and maintained scalable backend systems handling over 500,000 API requests daily across distributed cloud infrastructure.</blockquote><span class='rec-date'>Senior Software Engineer · 6 years</span></div>"
                 },
                 {
                     "id": "rec2",
                     "type": "action",
-                    "label": "Mohamed Faalil",
+                    "label": "60% Automation Gain",
                     "icon": "",
-                    "x": 292.97091418215064,
-                    "y": 454.12232034114123,
-                    "operations": "Jul 2025",
-                    "tooltip": "Senior Software Engineer @ comAlpine",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>MF</div><h2>Mohamed Faalil</h2><p class='rec-title'>Senior Software Engineer @ comAlpine Informationssysteme GmbH</p><blockquote class='rec-quote'>&quot;I had the pleasure of working with Raiyan when he joined as an Associate Software Engineer. From the very beginning, he demonstrated a fast learning ability and a deep understanding of technical concepts. Raiyan has developed extensive experience in automation, and his contributions in that area have been truly impressive. His ability to tackle complex problems and deliver reliable solutions makes him stand out as a developer. I highly recommend Raiyan to any organization.&quot;</blockquote><span class='rec-date'>July 15, 2025</span></div>"
+                    "x": 400,
+                    "y": 410,
+                    "operations": "AI/ML",
+                    "tooltip": "LLM integration reduced manual work by 60%",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>🤖</div><h2>AI-Driven Automation</h2><p class='rec-title'>FastAPI + OpenAI + LLM/SLM</p><blockquote class='rec-quote'>Spearheaded development of high-performance Python services integrating OpenAI APIs and LLMs to process and classify high-volume data streams, reducing manual intervention by 60%.</blockquote><span class='rec-date'>Senior Software Engineer · Imara Software Solutions</span></div>"
                 },
                 {
                     "id": "rec3",
                     "type": "action",
-                    "label": "Rajabdeen Ajmal",
+                    "label": "MSc Thesis Published",
                     "icon": "",
-                    "x": 151.06510964834823,
-                    "y": 269.299705643243,
-                    "operations": "May 2025",
-                    "tooltip": "Senior Technical Lead | Java, Spring Boot",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>RA</div><h2>Rajabdeen Ajmal</h2><p class='rec-title'>Senior Technical Lead | Java | Spring Boot | Laravel | Angular | Node.js</p><blockquote class='rec-quote'>&quot;It's been a pleasure working with Raiyan at Imara Software Solutions, and I've also had the privilege of mentoring him earlier as one of my BIT students. From the classroom to the workplace, his intelligence, dedication, and strong grasp of software development have always stood out. Raiyan consistently demonstrated solid technical skills and a clear understanding of software architecture. I strongly recommend him for any opportunity in software development or beyond.&quot;</blockquote><span class='rec-date'>May 1, 2025</span></div>"
-                },
-                {
-                    "id": "recommendations_1775641226966",
-                    "type": "action",
-                    "label": "Richard Smith",
-                    "icon": "",
-                    "x": 620.6015570183184,
-                    "y": 254.299705643243,
-                    "operations": "Mar 2026",
-                    "tooltip": "Founder and CEO @ Codification",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>RS</div><h2>Richard Smith</h2><p class='rec-title'>Founder and CEO of Codification</p><blockquote class='rec-quote'>&quot;Raiyan is a capable engineer with a strong grasp of automation and modern platforms. He consistently\ndelivers, communicates clearly, and adapts quickly in fast-paced environments. He is a great team player\nand someone I'd confidently recommend.&quot;</blockquote><span class='rec-date'>Mar 25, 2026</span></div>"
+                    "x": 640,
+                    "y": 380,
+                    "operations": "2025",
+                    "tooltip": "Published research on GenAI and sketch-based UI",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs.</blockquote><span class='rec-date'>Master Thesis · Grade C · 30 HE credits</span></div>"
                 }
             ],
             "connections": [
-                {
-                    "start": "rec_source",
-                    "end": "rec1"
-                },
-                {
-                    "start": "rec_source",
-                    "end": "rec2"
-                },
-                {
-                    "start": "rec_source",
-                    "end": "rec3"
-                },
-                {
-                    "start": "recommendations_1775641226966",
-                    "end": "rec_source"
-                }
+                { "start": "rec_source", "end": "rec1" },
+                { "start": "rec_source", "end": "rec2" },
+                { "start": "rec_source", "end": "rec3" }
             ]
         }
     }
