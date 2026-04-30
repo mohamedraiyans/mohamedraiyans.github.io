@@ -1,0 +1,411 @@
+{
+    "profile": {
+        "name": "Mohamed Sahfas",
+        "title": "Platform Automation Engineer",
+        "subtitle": "Platform Automation Engineer · Full Stack Developer",
+        "company": "Codification",
+        "tagline": "Building seamless automations & full-stack solutions that connect systems and empower businesses.",
+        "bio": "I am a full stack web developer & automation engineer with experience in various technologies and frameworks. I have expertise in PHP, MySQL, Laravel, and a wide range of automation platforms including Make.com, Zapier, n8n, and Odoo. I enjoy building dynamic, responsive systems that meet the needs of clients and users.",
+        "location": "Puttalam District, Sri Lanka",
+        "nationality": "Sri Lankan",
+        "dob": "06 August 1999",
+        "languages": "Tamil (Native) · English (C1)"
+    },
+    "contact": {
+        "phone": "+94763236664",
+        "phoneDisplay": "(+94) 763 236 664",
+        "email": "1sahfas@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/sahfas/",
+        "linkedinDisplay": "linkedin.com/in/sahfas"
+    },
+    "stats": [
+        {
+            "count": 3,
+            "suffix": "+",
+            "label": "Years Experience"
+        },
+        {
+            "count": 5,
+            "suffix": "+",
+            "label": "Major Projects"
+        },
+        {
+            "count": 6,
+            "suffix": "+",
+            "label": "Automation Platforms"
+        },
+        {
+            "count": 3,
+            "suffix": "",
+            "label": "Recommendations"
+        }
+    ],
+    "sections": {
+        "skills": {
+            "title": "Core Skills & Tools",
+            "card": {
+                "description": "Make.com, Zapier, n8n, PHP, Laravel, JavaScript, MySQL, AWS and more.",
+                "tags": [
+                    "Automation",
+                    "Backend",
+                    "Frontend",
+                    "DevOps"
+                ]
+            },
+            "nodes": [
+                {
+                    "id": "automation",
+                    "type": "trigger",
+                    "label": "Automation Platforms",
+                    "icon": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/make.svg",
+                    "x": -20.892733564013835,
+                    "y": 256.60640138408303,
+                    "operations": "Expert",
+                    "tooltip": "Cross-platform workflow automation specialist",
+                    "details": "<h2>Workflow Automation</h2><p>Extensive experience cross-connecting platforms, designing resilient architectures, and managing mass data flows.</p><ul><li>Make.com</li><li>Zapier</li><li>n8n</li><li>Activepieces</li><li>Workato</li><li>Boostspace</li></ul>"
+                },
+                {
+                    "id": "backend",
+                    "type": "action",
+                    "label": "Backend Dev",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+                    "x": 260.89273356401384,
+                    "y": 144.65397923875432,
+                    "operations": "PHP/C#",
+                    "tooltip": "PHP, Laravel, ASP.NET MVC, REST APIs",
+                    "details": "<h2>Backend Engineering</h2><p>Designing robust server-side applications and microservices.</p><ul><li>PHP & Laravel</li><li>ASP.NET MVC & C#</li><li>REST API integrations</li><li>Scripting (Python, Selenium)</li></ul>",
+                    "_bary": 0
+                },
+                {
+                    "id": "frontend",
+                    "type": "action",
+                    "label": "Frontend Dev",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                    "x": 260,
+                    "y": 375,
+                    "operations": "JS",
+                    "tooltip": "JavaScript, jQuery, Angular, Bootstrap",
+                    "details": "<h2>Frontend Interfaces</h2><p>Building responsive and interactive web applications.</p><ul><li>JavaScript / jQuery / AJAX</li><li>HTML5 / CSS3 / Bootstrap</li><li>DataTables integration</li><li>AngularJS</li></ul>",
+                    "_bary": 0
+                },
+                {
+                    "id": "database",
+                    "type": "action",
+                    "label": "Databases",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+                    "x": 540,
+                    "y": 256.6875,
+                    "operations": "SQL",
+                    "tooltip": "MySQL, SQL Server, schema design",
+                    "details": "<h2>Data Management</h2><p>Designing schemas and ensuring data integrity across high-volume systems.</p><ul><li>MySQL / phpMyAdmin</li><li>SQL Server</li><li>Architecture mapping</li></ul>",
+                    "_bary": 0.5
+                },
+                {
+                    "id": "devops",
+                    "type": "action",
+                    "label": "DevOps & Tools",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+                    "x": 805.7162629757786,
+                    "y": 256.20911548442905,
+                    "operations": "AWS/Git",
+                    "tooltip": "AWS, Git/GitHub, Odoo Enterprise",
+                    "details": "<h2>Infrastructure & VCS</h2><p>Deploying code safely and managing team repositories.</p><ul><li>Amazon Web Services (AWS)</li><li>Git / GitHub / CodeCommit</li><li>Odoo Enterprise Resources</li></ul>",
+                    "_bary": 0
+                }
+            ],
+            "connections": [
+                {
+                    "start": "automation",
+                    "end": "backend"
+                },
+                {
+                    "start": "automation",
+                    "end": "frontend"
+                },
+                {
+                    "start": "backend",
+                    "end": "database"
+                },
+                {
+                    "start": "frontend",
+                    "end": "database"
+                },
+                {
+                    "start": "database",
+                    "end": "devops"
+                }
+            ]
+        },
+        "experience": {
+            "title": "Work Experience",
+            "card": {
+                "description": "From Imara Software Solutions to Codification — a journey through automation & software engineering.",
+                "tags": [
+                    "Codification",
+                    "Saltware",
+                    "Imara"
+                ]
+            },
+            "nodes": [
+                {
+                    "id": "job1",
+                    "type": "trigger",
+                    "label": "Automation Engineer",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "x": 680,
+                    "y": 300,
+                    "operations": "Current",
+                    "tooltip": "Codification (UAE) — July 2025+",
+                    "details": "<h2>Codification (UAE)</h2><p>July 2025 - Present</p><ul><li>Platform automations with Odoo, Slack, Make.com, Google Workspace and other tools.</li><li>Automations with python, php, and selenium.</li><li>Automations maintenance and monitoring.</li></ul>",
+                    "_bary": 0
+                },
+                {
+                    "id": "job2",
+                    "type": "action",
+                    "label": "Software Engineer",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg",
+                    "x": 400,
+                    "y": 300,
+                    "operations": "2024-25",
+                    "tooltip": "The Saltware (PVT) LTD — Sri Lanka",
+                    "details": "<h2>The Saltware (PVT) LTD (Sri Lanka)</h2><p>Sept 2024 - July 2025</p><ul><li>Software/web-applications programming</li><li>Bug fixing on web based ERP application</li><li>ASP.NET MVC, C#, JavaScript</li></ul>",
+                    "_bary": 0
+                },
+                {
+                    "id": "job3",
+                    "type": "action",
+                    "label": "Software Engineer",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg",
+                    "x": 120,
+                    "y": 300,
+                    "operations": "2022-24",
+                    "tooltip": "Imara Software Solutions — Sri Lanka",
+                    "details": "<h2>Imara Software Solutions (Sri Lanka)</h2><p>Aug 2022 - Aug 2024</p><ul><li>Built automation tools with selenium</li><li>Worked with all automation tools like make.com, zapier, activepieces, boostspace, n8n, workato</li><li>Software/web-applications programming</li></ul>"
+                }
+            ],
+            "connections": [
+                {
+                    "start": "job3",
+                    "end": "job2"
+                },
+                {
+                    "start": "job2",
+                    "end": "job1"
+                }
+            ]
+        },
+        "projects": {
+            "title": "Major Projects",
+            "card": {
+                "description": "AppraiserPal, ShopSync Pro, workflow automations, ERP systems and more.",
+                "tags": [
+                    "Angular",
+                    "Laravel",
+                    "REST APIs",
+                    "Make.com"
+                ]
+            },
+            "nodes": [
+                {
+                    "id": "proj1",
+                    "type": "trigger",
+                    "label": "AppraiserPal",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+                    "x": 400.00000000000006,
+                    "y": 141.71101299219208,
+                    "operations": "2023",
+                    "tooltip": "Property appraisal web app — Angular + Laravel",
+                    "details": "<h2>AppraiserPal</h2><p>Web application revolutionizing the property appraisal process with tracking and chat.</p><ul><li>AngularJS, Laravel, MySQL</li><li>AWS EC2 Integration</li></ul>"
+                },
+                {
+                    "id": "proj2",
+                    "type": "action",
+                    "label": "ShopSync Pro",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/2933/2933116.png",
+                    "x": 502.86241915118285,
+                    "y": 458.2889870078079,
+                    "operations": "2023",
+                    "tooltip": "3000+ product migration via REST APIs",
+                    "details": "<h2>ShopSync Pro</h2><p>Effortlessly migrated a vast inventory of over 3000 products from Rock Safety to Unas.</p><ul><li>PHP Scripts & REST APIs</li><li>JSON/XML transformations</li></ul>"
+                },
+                {
+                    "id": "proj3",
+                    "type": "action",
+                    "label": "StudentConnectX",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/1256/1256650.png",
+                    "x": 608.9348903516518,
+                    "y": 187.63303897657633,
+                    "operations": "2023",
+                    "tooltip": "PHPBB forum upgrade 2.0 → 3.3",
+                    "details": "<h2>StudentConnectX</h2><p>Upgraded an existing student forum site from PHPBB 2.0 to PHPBB 3.3.</p><ul><li>MySQL, PhpMyAdmin</li><li>Enhanced search indexing</li></ul>"
+                },
+                {
+                    "id": "proj4",
+                    "type": "action",
+                    "label": "Workflow Automations",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/2083/2083213.png",
+                    "x": 216.30424751548395,
+                    "y": 458.2889870078079,
+                    "operations": "2024",
+                    "tooltip": "Make.com + Zapier multi-platform flows",
+                    "details": "<h2>Make.com & Zapier Workflows</h2><p>Comprehensive automation project for workflow efficiency.</p><ul><li>WP Recipe plugin & data migration</li><li>Auth.net + Salesforce + QuickBooks sync</li><li>AI NLP integration</li></ul>"
+                },
+                {
+                    "id": "proj5",
+                    "type": "action",
+                    "label": "Trove & ITS ERP",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+                    "x": 233.56510964834817,
+                    "y": 262.6330389765763,
+                    "operations": "Current",
+                    "tooltip": "Laravel + ASP.NET ERP + Zoho CRM",
+                    "details": "<h2>Trove (Laravel) & ITS ERP (ASP.NET)</h2><p>Current complex systems development involving Zoho CRM integration and ERP system optimization.</p><ul><li>Zoho CRM API</li><li>Web Scraping</li><li>DataTables & Financial dashboards</li></ul>"
+                }
+            ],
+            "connections": [
+                {
+                    "start": "proj1",
+                    "end": "proj2"
+                },
+                {
+                    "start": "proj3",
+                    "end": "proj2"
+                },
+                {
+                    "start": "proj2",
+                    "end": "proj4"
+                },
+                {
+                    "start": "proj2",
+                    "end": "proj5"
+                }
+            ]
+        },
+        "education": {
+            "title": "Education & Certifications",
+            "card": {
+                "description": "Bachelor of IT from University of Colombo School of Computing (UCSC).",
+                "tags": [
+                    "UCSC",
+                    "B.I.T",
+                    "Foundation IT"
+                ]
+            },
+            "nodes": [
+                {
+                    "id": "edu1",
+                    "type": "trigger",
+                    "label": "Foundation in IT",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231662.png",
+                    "x": 200,
+                    "y": 250,
+                    "operations": "2016",
+                    "tooltip": "UCSC — Maths, English, ICT",
+                    "details": "<h2>Foundation in Information Technology</h2><p>University of Colombo School of Computing (UCSC)</p><ul><li>Mathematics</li><li>English Communication Skills</li><li>Information Communication Technology</li></ul>"
+                },
+                {
+                    "id": "edu2",
+                    "type": "action",
+                    "label": "B.I.T",
+                    "icon": "https://cdn-icons-png.flaticon.com/512/2231/2231662.png",
+                    "x": 600,
+                    "y": 250,
+                    "operations": "2017-21",
+                    "tooltip": "Bachelor of IT — UCSC",
+                    "details": "<h2>Bachelor of Information Technology</h2><p>University of Colombo School of Computing (UCSC)</p><ul><li>Software and applications development</li><li>Database and network design</li></ul>"
+                }
+            ],
+            "connections": [
+                {
+                    "start": "edu1",
+                    "end": "edu2"
+                }
+            ]
+        },
+        "recommendations": {
+            "title": "LinkedIn Recommendations",
+            "card": {
+                "description": "What colleagues and mentors say — endorsements from LinkedIn professionals.",
+                "tags": [
+                    "LinkedIn",
+                    "3 Endorsements"
+                ]
+            },
+            "nodes": [
+                {
+                    "id": "rec_source",
+                    "type": "trigger",
+                    "label": "LinkedIn",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+                    "x": 400.00000000000006,
+                    "y": 141.71101299219208,
+                    "operations": "4",
+                    "tooltip": "View recommendations from colleagues",
+                    "details": "<h2>LinkedIn Profile</h2><p>Platform Automation Engineer @ Codification</p><p>Puttalam District, Sri Lanka</p><ul><li><a href='https://www.linkedin.com/in/sahfas/' target='_blank' style='color:var(--color-primary);'>View Full Profile →</a></li></ul>"
+                },
+                {
+                    "id": "rec1",
+                    "type": "action",
+                    "label": "Ishthiyaque Ahmed",
+                    "icon": "",
+                    "x": 499.52908581784953,
+                    "y": 450.7889870078079,
+                    "operations": "Sep 2025",
+                    "tooltip": "Software Engineer & Automation Strategist",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>IA</div><h2>Ishthiyaque Ahmed (Ishthi)</h2><p class='rec-title'>Software Engineer &amp; Automation Strategist | Make, N8N &amp; AI</p><blockquote class='rec-quote'>&quot;Sahfas is a talented resource to any employer. During his tenure of career, I found him dynamic and fast learner despite any technology. He is a person who can understand the underpinning technical framework of the working platform or project. I wish him all the best.&quot;</blockquote><span class='rec-date'>September 30, 2025</span></div>"
+                },
+                {
+                    "id": "rec2",
+                    "type": "action",
+                    "label": "Mohamed Faalil",
+                    "icon": "",
+                    "x": 292.97091418215064,
+                    "y": 454.12232034114123,
+                    "operations": "Jul 2025",
+                    "tooltip": "Senior Software Engineer @ comAlpine",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>MF</div><h2>Mohamed Faalil</h2><p class='rec-title'>Senior Software Engineer @ comAlpine Informationssysteme GmbH</p><blockquote class='rec-quote'>&quot;I had the pleasure of working with Sahfas when he joined as an Associate Software Engineer. From the very beginning, he demonstrated a fast learning ability and a deep understanding of technical concepts. Sahfas has developed extensive experience in automation, and his contributions in that area have been truly impressive. His ability to tackle complex problems and deliver reliable solutions makes him stand out as a developer. I highly recommend Sahfas to any organization.&quot;</blockquote><span class='rec-date'>July 15, 2025</span></div>"
+                },
+                {
+                    "id": "rec3",
+                    "type": "action",
+                    "label": "Rajabdeen Ajmal",
+                    "icon": "",
+                    "x": 151.06510964834823,
+                    "y": 269.299705643243,
+                    "operations": "May 2025",
+                    "tooltip": "Senior Technical Lead | Java, Spring Boot",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>RA</div><h2>Rajabdeen Ajmal</h2><p class='rec-title'>Senior Technical Lead | Java | Spring Boot | Laravel | Angular | Node.js</p><blockquote class='rec-quote'>&quot;It's been a pleasure working with Sahfas at Imara Software Solutions, and I've also had the privilege of mentoring him earlier as one of my BIT students. From the classroom to the workplace, his intelligence, dedication, and strong grasp of software development have always stood out. Sahfas consistently demonstrated solid technical skills and a clear understanding of software architecture. I strongly recommend him for any opportunity in software development or beyond.&quot;</blockquote><span class='rec-date'>May 1, 2025</span></div>"
+                },
+                {
+                    "id": "recommendations_1775641226966",
+                    "type": "action",
+                    "label": "Richard Smith",
+                    "icon": "",
+                    "x": 620.6015570183184,
+                    "y": 254.299705643243,
+                    "operations": "Mar 2026",
+                    "tooltip": "Founder and CEO @ Codification",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>RS</div><h2>Richard Smith</h2><p class='rec-title'>Founder and CEO of Codification</p><blockquote class='rec-quote'>&quot;Sahfas is a capable engineer with a strong grasp of automation and modern platforms. He consistently\ndelivers, communicates clearly, and adapts quickly in fast-paced environments. He is a great team player\nand someone I'd confidently recommend.&quot;</blockquote><span class='rec-date'>Mar 25, 2026</span></div>"
+                }
+            ],
+            "connections": [
+                {
+                    "start": "rec_source",
+                    "end": "rec1"
+                },
+                {
+                    "start": "rec_source",
+                    "end": "rec2"
+                },
+                {
+                    "start": "rec_source",
+                    "end": "rec3"
+                },
+                {
+                    "start": "recommendations_1775641226966",
+                    "end": "rec_source"
+                }
+            ]
+        }
+    }
+}

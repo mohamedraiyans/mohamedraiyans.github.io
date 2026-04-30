@@ -1,0 +1,5 @@
+# Localhost-only CMS editor (PHP)
+api/
+
+# Backups created by the editor
+api/backups/
