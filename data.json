@@ -446,7 +446,7 @@
                     "id": "imara_album",
                     "type": "action",
                     "label": "Imara Software Album",
-                    "icon": "http://www.imarasoft.net/img/m1.png",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg",
                     "x": 650,
                     "y": 350,
                     "operations": "2014–25",
