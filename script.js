@@ -215,18 +215,43 @@ document.addEventListener('DOMContentLoaded', async () => {
     // ---- Dashboard Helpers ----
     const heroVideoEl = document.getElementById('heroVideo');
 
-    // Mobile menu toggle
+    // Mobile menu toggle with backdrop
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const sidebarEl = document.querySelector('.sidebar');
     if (mobileMenuBtn && sidebarEl) {
+        // create backdrop once
+        let backdrop = document.getElementById('mobileMenuBackdrop');
+        if (!backdrop) {
+            backdrop = document.createElement('div');
+            backdrop.id = 'mobileMenuBackdrop';
+            backdrop.className = 'mobile-menu-backdrop';
+            document.body.appendChild(backdrop);
+        }
+
+        const openMenu = () => {
+            sidebarEl.classList.add('mobile-open');
+            backdrop.classList.add('active');
+            // prevent body scroll when menu open
+            document.body.style.overflow = 'hidden';
+        };
+
+        const closeMenu = () => {
+            sidebarEl.classList.remove('mobile-open');
+            backdrop.classList.remove('active');
+            document.body.style.overflow = '';
+        };
+
         mobileMenuBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            sidebarEl.classList.toggle('mobile-open');
+            if (sidebarEl.classList.contains('mobile-open')) closeMenu(); else openMenu();
         });
-        // close sidebar when clicking outside
+
+        backdrop.addEventListener('click', closeMenu);
+
+        // close sidebar when clicking outside (safety)
         document.addEventListener('click', (e) => {
             if (sidebarEl.classList.contains('mobile-open') && !e.target.closest('.sidebar') && !e.target.closest('#mobileMenuBtn')) {
-                sidebarEl.classList.remove('mobile-open');
+                closeMenu();
             }
         });
     }
