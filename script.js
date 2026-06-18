@@ -752,21 +752,63 @@ document.addEventListener('DOMContentLoaded', async () => {
         let html = '';
         if (detailsHtml) html += detailsHtml;
         if (node.photos && node.photos.length) {
-            html += '<div class="photo-grid">';
-            node.photos.forEach((p, i) => {
-                html += `<div class="photo-thumb"><img src="${p}" alt="${node.label} ${i+1}" data-src="${p}"></div>`;
-            });
-            html += '</div>';
+            html += `
+                <div class="album-carousel">
+                    <div class="carousel-window">
+                        <div class="carousel-slides">
+                            ${node.photos.map((p, i) => `
+                                <div class="carousel-slide" data-index="${i}">
+                                    <img src="${p}" alt="${node.label} ${i + 1}" data-src="${p}" />
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    <button class="carousel-button carousel-prev" type="button" aria-label="Previous image">‹</button>
+                    <button class="carousel-button carousel-next" type="button" aria-label="Next image">›</button>
+                    <div class="carousel-indicators">
+                        ${node.photos.map((p, i) => `<button class="carousel-indicator" type="button" aria-label="View image ${i + 1}" data-index="${i}"></button>`).join('')}
+                    </div>
+                </div>
+            `;
         }
         panelContent.innerHTML = html;
 
-        // attach click handlers for thumbnails
-        panelContent.querySelectorAll('.photo-thumb img').forEach(img => {
-            img.addEventListener('click', (e) => {
-                const src = e.currentTarget.dataset.src || e.currentTarget.src;
-                openImageLightbox(src);
+        const carousel = panelContent.querySelector('.album-carousel');
+        if (carousel) {
+            const slides = carousel.querySelectorAll('.carousel-slide');
+            const indicatorButtons = carousel.querySelectorAll('.carousel-indicator');
+            const prevBtn = carousel.querySelector('.carousel-prev');
+            const nextBtn = carousel.querySelector('.carousel-next');
+            const slideTrack = carousel.querySelector('.carousel-slides');
+            let activeIndex = 0;
+
+            const updateCarousel = (newIndex) => {
+                activeIndex = (newIndex + slides.length) % slides.length;
+                slideTrack.style.transform = `translateX(-${activeIndex * 100}%)`;
+                indicatorButtons.forEach((btn, idx) => btn.classList.toggle('active', idx === activeIndex));
+            };
+
+            prevBtn.addEventListener('click', () => updateCarousel(activeIndex - 1));
+            nextBtn.addEventListener('click', () => updateCarousel(activeIndex + 1));
+
+            indicatorButtons.forEach((btn) => {
+                btn.addEventListener('click', (e) => {
+                    const index = parseInt(e.currentTarget.dataset.index, 10);
+                    updateCarousel(index);
+                });
             });
-        });
+
+            slides.forEach((slide) => {
+                const img = slide.querySelector('img');
+                if (img) {
+                    img.addEventListener('click', () => {
+                        openImageLightbox(img.dataset.src || img.src);
+                    });
+                }
+            });
+
+            updateCarousel(0);
+        }
 
         // open panel and focus
         detailPanel.classList.add('open');
