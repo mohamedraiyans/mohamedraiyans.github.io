@@ -1,7 +1,7 @@
 {
     "profile": {
         "name": "Mohamed Raiyan",
-        "title": "Senior Software Engineer",
+        "title": "Senior Software Engineer / AI Engineer",
         "subtitle": "Backend Engineer · Full-Stack Developer · Applied AI",
         "company": "Open to Work · Stockholm",
         "tagline": "Building scalable backend systems, cloud-based APIs, and AI-driven solutions — 9+ years turning complex problems into clean, reliable software.",
@@ -138,7 +138,7 @@
                     "y": 300,
                     "operations": "2019–25",
                     "tooltip": "Imara Software Solutions · Python / AI",
-                    "details": "<h2>Senior Software Engineer / Python Developer</h2><p><strong>Imara Software Solutions</strong> · Jan 2019 – Dec 2025</p><ul><li>Designed backend systems handling <strong>500K+ daily API requests</strong></li><li>Built FastAPI services integrating OpenAI & LLMs — reduced manual work by <strong>60%</strong></li><li>Python (Django), Node.js — React admin panels & internal tools</li><li>Containerised microservices with Docker into CI/CD pipelines</li><li>Managed <strong>2TB+ PostgreSQL/MySQL</strong> databases with automated backups</li><li>Integrated Shopify, eBay, AWS APIs for product sync & payments</li><li>Azure cloud infrastructure & deployment automation</li><li>Mentored junior developers & led sprint planning (Agile)</li><li>Low-code automation with Make.com & Bubble</li></ul>"
+                    "details": "<h2>Senior Software Engineer / AI Engineer</h2><p><strong>Imara Software Solutions</strong> · Jan 2019 – Dec 2025</p><ul><li>Designed backend systems handling <strong>500K+ daily API requests</strong></li><li>Built FastAPI services integrating OpenAI & LLMs — reduced manual work by <strong>60%</strong></li><li>Python (Django), Node.js — React admin panels & internal tools</li><li>Containerised microservices with Docker into CI/CD pipelines</li><li>Managed <strong>2TB+ PostgreSQL/MySQL</strong> databases with automated backups</li><li>Integrated Shopify, eBay, AWS APIs for product sync & payments</li><li>Azure cloud infrastructure & deployment automation</li><li>Mentored junior developers & led sprint planning (Agile)</li><li>Low-code automation with Make.com & Bubble</li></ul>"
                 },
                 {
                     "id": "job2",
