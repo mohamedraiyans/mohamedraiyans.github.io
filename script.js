@@ -370,10 +370,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             setTimeout(() => { heroOverlay.style.display = 'none'; }, 800);
         }
         if (heroCta) {
+            heroCta.type = 'button';
             heroCta.addEventListener('click', (e) => {
                 e.stopPropagation();
                 dismissHero();
-                navigateToSection('dashboard');
+                if (typeof navigateToSection === 'function') {
+                    navigateToSection('dashboard');
+                }
+                window.location.hash = '#dashboard';
             });
         }
         setTimeout(() => heroOverlay.addEventListener('click', (e) => { if (e.target === heroOverlay) dismissHero(); }), 2500);
