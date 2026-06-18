@@ -294,7 +294,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 heroPlayBtn.style.display = 'none';
             });
         }
-        }
     }
 
     function showDashboard() {
