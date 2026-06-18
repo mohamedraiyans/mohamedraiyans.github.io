@@ -331,6 +331,56 @@
                 { "start": "rec_source", "end": "rec2" },
                 { "start": "rec_source", "end": "rec3" }
             ]
+        },
+        "portfolio": {
+            "title": "Professional Portfolio",
+            "card": {
+                "description": "Photo galleries — Graduation memories & Imara Software Solutions team highlights.",
+                "tags": [
+                    "Graduation",
+                    "Imara Software",
+                    "Professional"
+                ]
+            },
+            "nodes": [
+                {
+                    "id": "port_gallery",
+                    "type": "trigger",
+                    "label": "Photo Gallery",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+                    "x": 400,
+                    "y": 150,
+                    "operations": "Albums",
+                    "tooltip": "Professional & Personal Photo Collections",
+                    "details": "<h2>Photo Gallery & Memories</h2><p>Collections showcasing professional milestones and team experiences from throughout my career.</p><ul><li>🎓 Graduation memories and academic achievements</li><li>🏢 Imara Software Solutions team highlights</li><li>📸 Professional photography collections</li></ul>"
+                },
+                {
+                    "id": "graduation_album",
+                    "type": "action",
+                    "label": "Graduation Album",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg",
+                    "x": 150,
+                    "y": 350,
+                    "operations": "2025",
+                    "tooltip": "MSc Graduation & Academic Achievements",
+                    "details": "<h2>Graduation Album</h2><p><strong>Stockholm University · MSc Graduation 2025</strong></p><ul><li>✅ MSc in Computer and Systems Sciences</li><li>📚 Academic achievements & milestones</li><li>📜 Thesis completion & defence</li><li>👥 University friends & colleagues</li><li>🎓 Graduation ceremony moments</li></ul><p><em>Collection of photos capturing this significant academic achievement.</em></p>"
+                },
+                {
+                    "id": "imara_album",
+                    "type": "action",
+                    "label": "Imara Software Album",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                    "x": 650,
+                    "y": 350,
+                    "operations": "2014–25",
+                    "tooltip": "Imara Software Solutions Team & Professional Moments",
+                    "details": "<h2>Imara Software Solutions</h2><p><strong>Professional Experience · 2014 – 2025</strong></p><ul><li>🤝 Team members & collaboration photos</li><li>🏆 Project launches & successes</li><li>🎉 Company events & celebrations</li><li>💼 Professional milestones & growth</li><li>👔 Conference presentations & networking</li></ul><p><em>11 years of professional journey, innovation, and team building at Imara Software Solutions.</em></p>"
+                }
+            ],
+            "connections": [
+                { "start": "port_gallery", "end": "graduation_album" },
+                { "start": "port_gallery", "end": "imara_album" }
+            ]
         }
     }
 }
