@@ -278,26 +278,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    // Hero video: attempt muted autoplay on mobile, show a play/unmute button if autoplay is blocked
+    // Hero video: use muted autoplay by default so desktop browsers start playback,
+    // and allow the user to unmute with the visible button when needed.
     const heroPlayBtn = document.getElementById('heroPlayBtn');
-    const isMobile = ('ontouchstart' in window) || navigator.maxTouchPoints > 0 || window.innerWidth <= 800;
     if (heroVideoEl) {
-        if (isMobile) {
-            heroVideoEl.muted = true;
-            heroVideoEl.playsInline = true;
-            heroVideoEl.play().catch(() => {
-                if (heroPlayBtn) heroPlayBtn.style.display = 'block';
-            });
-        } else {
-            heroVideoEl.muted = false;
-            heroVideoEl.play().catch(() => {});
-        }
+        heroVideoEl.muted = true;
+        heroVideoEl.playsInline = true;
+        heroVideoEl.play().catch(() => {
+            if (heroPlayBtn) heroPlayBtn.style.display = 'block';
+        });
         if (heroPlayBtn) {
             heroPlayBtn.addEventListener('click', () => {
                 heroVideoEl.muted = false;
                 heroVideoEl.play().catch(() => {});
                 heroPlayBtn.style.display = 'none';
             });
+        }
         }
     }
 
