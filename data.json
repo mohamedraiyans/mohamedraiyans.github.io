@@ -153,7 +153,7 @@
                     "y": 300,
                     "operations": "2019–25",
                     "tooltip": "Imara Software Solutions · Python / AI",
-                    "details": "<h2>Senior Software Engineer / AI Engineer</h2><p><strong>Imara Software Solutions</strong> · Jan 2019 – Dec 2025</p><ul><li>Designed backend systems handling <strong>500K+ daily API requests</strong></li><li>Built FastAPI services integrating OpenAI & LLMs — reduced manual work by <strong>60%</strong></li><li>Python (Django), Node.js — React admin panels & internal tools</li><li>Containerised microservices with Docker into CI/CD pipelines</li><li>Managed <strong>2TB+ PostgreSQL/MySQL</strong> databases with automated backups</li><li>Integrated Shopify, eBay, AWS APIs for product sync & payments</li><li>Azure cloud infrastructure & deployment automation</li><li>Mentored junior developers & led sprint planning (Agile)</li><li>Low-code automation with Make.com & Bubble</li></ul>"
+                    "details": "<h2>Senior Software Engineer / AI Engineer</h2><p><strong>Imara Software Solutions</strong> · Jan 2019 – Mar 2026</p><ul><li>Designed backend systems handling <strong>500K+ daily API requests</strong></li><li>Built FastAPI services integrating OpenAI & LLMs — reduced manual work by <strong>60%</strong></li><li>Python (Django), Node.js — React admin panels & internal tools</li><li>Containerised microservices with Docker into CI/CD pipelines</li><li>Managed <strong>2TB+ PostgreSQL/MySQL</strong> databases with automated backups</li><li>Integrated Shopify, eBay, AWS APIs for product sync & payments</li><li>Azure cloud infrastructure & deployment automation</li><li>Mentored junior developers & led sprint planning (Agile)</li><li>Low-code automation with Make.com & Bubble</li></ul>"
                 },
                 {
                     "id": "job2",
@@ -452,9 +452,11 @@
                     "operations": "2014–25",
                     "tooltip": "Imara Software Solutions Team & Professional Moments",
                     "photos": [
-                        "assets/albums/imara/team1.jpeg"
+                        "assets/albums/imara/team1.jpeg",
+                        "assets/albums/imara/team2.jpeg",
+                        "assets/albums/imara/team3.jpeg"
                     ],
-                    "details": "<h2>Imara Software Solutions</h2><p><strong>Professional Experience · 2014 – 2025</strong></p><ul><li>🤝 Team members & collaboration photos</li><li>🏆 Project launches & successes</li><li>🎉 Company events & celebrations</li><li>💼 Professional milestones & growth</li><li>👔 Conference presentations & networking</li></ul><p><em>11 years of professional journey, innovation, and team building at Imara Software Solutions.</em></p>"
+                    "details": "<h2>Imara Software Solutions</h2><p><strong>Professional Experience · 2014 – 2025</strong></p><div class='photos'><img src='assets/albums/imara/team1.jpeg' alt='Imara team 1'><img src='assets/albums/imara/team2.jpeg' alt='Imara team 2'><img src='assets/albums/imara/team3.jpeg' alt='Imara team 3'></div><ul><li>🤝 Team members & collaboration photos</li><li>🏆 Project launches & successes</li><li>🎉 Company events & celebrations</li><li>💼 Professional milestones & growth</li><li>👔 Conference presentations & networking</li></ul><p><em>11 years of professional journey, innovation, and team building at Imara Software Solutions.</em></p>"
                 }
             ],
             "connections": [
