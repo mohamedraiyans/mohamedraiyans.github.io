@@ -368,7 +368,7 @@
                         "assets/albums/graduation/photo2.jpg",
                         "assets/albums/graduation/photo3.jpg"
                     ],
-                    "details": "<h2>Graduation Album</h2><p><strong>Stockholm University · MSc Graduation 2025</strong></p><div class='photos'><img src='assets/albums/graduation/photo1.jpg' alt='Graduation'><img src='assets/albums/graduation/photo2.jpg' alt='Graduation'></div><ul><li>✅ MSc in Computer and Systems Sciences</li><li>📚 Academic achievements & milestones</li><li>📜 Thesis completion & defence</li><li>👥 University friends & colleagues</li><li>🎓 Graduation ceremony moments</li></ul><p><em>Collection of photos capturing this significant academic achievement.</em></p>"
+                    "details": "<h2>Graduation Album</h2><p><strong>Stockholm University · MSc Graduation 2025</strong></p><div class='photos'><img src='assets/albums/graduation/photo1.JPG' alt='Graduation'><img src='assets/albums/graduation/photo2.JPG' alt='Graduation'><img src='assets/albums/graduation/photo3.JPG' alt='Graduation'></div><ul><li>✅ MSc in Computer and Systems Sciences</li><li>📚 Academic achievements & milestones</li><li>📜 Thesis completion & defence</li><li>👥 University friends & colleagues</li><li>🎓 Graduation ceremony moments</li></ul><p><em>Collection of photos capturing this significant academic achievement.</em></p>"
                 },
                 {
                     "id": "imara_album",
