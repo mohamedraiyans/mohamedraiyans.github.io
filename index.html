@@ -73,6 +73,7 @@
                         <svg viewBox="0 0 24 24" fill="none" class="dropdown-icon"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" style="display:none;">☰</button>
+                    <button class="home-btn" id="homeTopBtn" aria-label="Home" style="display:none;">🏠</button>
                     <div class="scenario-title">
                         <h1 id="pageTitle">Core Skills & Tools</h1>
                     </div>
@@ -176,7 +177,10 @@
         <aside class="detail-panel" id="detailPanel">
             <div class="panel-header">
                 <h2 id="panelTitle">Module Details</h2>
-                <button class="close-btn" id="closePanelBtn">&times;</button>
+                <div style="display:flex;gap:8px;align-items:center;">
+                    <button class="home-btn" id="homePanelBtn" aria-label="Go to dashboard" title="Home" style="display:inline-flex;">🏠</button>
+                    <button class="close-btn" id="closePanelBtn">&times;</button>
+                </div>
             </div>
             <div class="panel-content" id="panelContent">
                 <p>Select a node to view details.</p>

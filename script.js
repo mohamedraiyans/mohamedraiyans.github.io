@@ -256,6 +256,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
+    // Home buttons: topbar and panel
+    const homeTopBtn = document.getElementById('homeTopBtn');
+    const homePanelBtn = document.getElementById('homePanelBtn');
+    const backdropEl = document.getElementById('mobileMenuBackdrop');
+    if (homeTopBtn) {
+        homeTopBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navigateToSection('dashboard');
+            if (sidebarEl && sidebarEl.classList.contains('mobile-open')) {
+                sidebarEl.classList.remove('mobile-open');
+                if (backdropEl) backdropEl.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    }
+    if (homePanelBtn) {
+        homePanelBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navigateToSection('dashboard');
+        });
+    }
+
     // Hero video: attempt muted autoplay on mobile, show a play/unmute button if autoplay is blocked
     const heroPlayBtn = document.getElementById('heroPlayBtn');
     const isMobile = ('ontouchstart' in window) || navigator.maxTouchPoints > 0 || window.innerWidth <= 800;
