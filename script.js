@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const zoomOutBtn = document.getElementById('zoomOutBtn');
     const zoomResetBtn = document.getElementById('zoomResetBtn');
     const autoAlignBtn = document.getElementById('autoAlignBtn');
-    const themeToggle = document.getElementById('themeToggle');
+    const themeToggleSwitch = document.getElementById('toggleThemeMode');
     const heroOverlay = document.getElementById('heroOverlay');
     const heroCta = document.getElementById('heroCta');
     const minimapCanvas = document.getElementById('minimapCanvas');
@@ -208,9 +208,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const dashboardEl = document.getElementById('dashboard');
 
     // Modal buttons
-    document.getElementById('aboutBtn').addEventListener('click', () => openModal('aboutModal'));
-    document.getElementById('contactBtn').addEventListener('click', () => openModal('contactModal'));
-    document.getElementById('dashContactBtn').addEventListener('click', () => openModal('contactModal'));
+    document.getElementById('aboutBtn')?.addEventListener('click', () => openModal('aboutModal'));
+    document.getElementById('contactBtn')?.addEventListener('click', () => openModal('contactModal'));
+    document.getElementById('dashContactBtn')?.addEventListener('click', () => openModal('contactModal'));
+    document.getElementById('sidebarContactBtn')?.addEventListener('click', () => openModal('contactModal'));
+    document.querySelector('.sidebar-logo')?.addEventListener('click', () => openModal('aboutModal'));
 
     // ---- Dashboard Helpers ----
     const heroVideoEl = document.getElementById('heroVideo');
@@ -385,24 +387,24 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // ---- Dark Mode ----
     const savedTheme = localStorage.getItem('theme') || 'light';
-    if (savedTheme === 'dark') {
+    const isDarkMode = savedTheme === 'dark';
+    if (isDarkMode) {
         document.documentElement.setAttribute('data-theme', 'dark');
-        themeToggle.textContent = '☀️';
     }
-
-    themeToggle.addEventListener('click', () => {
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        if (isDark) {
-            document.documentElement.removeAttribute('data-theme');
-            themeToggle.textContent = '🌙';
-            localStorage.setItem('theme', 'light');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            themeToggle.textContent = '☀️';
-            localStorage.setItem('theme', 'dark');
-        }
-        updateMinimap();
-    });
+    if (themeToggleSwitch) {
+        themeToggleSwitch.checked = isDarkMode;
+        themeToggleSwitch.addEventListener('change', () => {
+            const darkSelected = themeToggleSwitch.checked;
+            if (darkSelected) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+            }
+            updateMinimap();
+        });
+    }
 
     // ---- Transform Helpers ----
     function updateTransform() {
