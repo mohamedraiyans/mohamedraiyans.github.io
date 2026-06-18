@@ -1860,9 +1860,9 @@ body.tooltips-disabled .node-tooltip { display: none !important; }
         width: 100% !important;
         height: calc(100vh - 56px) !important;
     }
-}
+
     .dash-hero-title { font-size: 32px; }
-    .dash-hero-tagline { font-size: 14px; display: none; }
+    .dash-hero-tagline { font-size: 14px; display: block; }
     .dash-hero-actions { flex-direction: column; gap: 10px; }
     .dash-btn-primary, .dash-btn-secondary { width: 100%; justify-content: center; }
     .dash-stats { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 30px 20px; }
