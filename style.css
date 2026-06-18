@@ -1783,6 +1783,77 @@ body.tooltips-disabled .node-tooltip { display: none !important; }
     /* Dashboard mobile */
     .dash-hero { height: 340px; }
     .dash-hero-content { padding: 0 24px; }
+
+    /* Custom mobile sidebar menu override */
+    .sidebar {
+        position: fixed !important;
+        left: -260px !important;
+        top: 0 !important;
+        width: 260px !important;
+        height: 100vh !important;
+        flex-direction: column !important;
+        padding-top: 24px !important;
+        background: var(--color-sidebar-bg) !important;
+        border-top: none !important;
+        border-left: 1px solid rgba(255,255,255,0.08) !important;
+        z-index: 1000 !important;
+        transition: left 0.25s ease !important;
+        box-shadow: 4px 0 28px rgba(0,0,0,0.25);
+    }
+
+    .sidebar.mobile-open {
+        left: 0 !important;
+    }
+
+    .sidebar-logo { display: flex !important; }
+
+    .nav-links {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        justify-content: flex-start !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin-top: 12px !important;
+    }
+
+    .nav-item {
+        height: 52px !important;
+        width: 100% !important;
+        padding: 0 18px !important;
+        justify-content: flex-start !important;
+        border-left: none !important;
+        border-top: none !important;
+    }
+
+    .nav-item .nav-icon {
+        margin-right: 12px !important;
+    }
+
+    .nav-text {
+        display: inline-flex !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-menu-btn {
+        display: inline-flex !important;
+    }
+
+    #homeTopBtn {
+        display: inline-flex !important;
+    }
+
+    .sidebar.mobile-open + .mobile-menu-backdrop,
+    .mobile-menu-backdrop.active {
+        display: block !important;
+    }
+
+    .workspace {
+        margin-left: 0 !important;
+        width: 100% !important;
+        height: calc(100vh - 56px) !important;
+    }
+}
     .dash-hero-title { font-size: 32px; }
     .dash-hero-tagline { font-size: 14px; }
     .dash-hero-actions { flex-direction: column; gap: 10px; }
