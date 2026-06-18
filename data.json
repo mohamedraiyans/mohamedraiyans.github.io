@@ -363,7 +363,12 @@
                     "y": 350,
                     "operations": "2025",
                     "tooltip": "MSc Graduation & Academic Achievements",
-                    "details": "<h2>Graduation Album</h2><p><strong>Stockholm University · MSc Graduation 2025</strong></p><ul><li>✅ MSc in Computer and Systems Sciences</li><li>📚 Academic achievements & milestones</li><li>📜 Thesis completion & defence</li><li>👥 University friends & colleagues</li><li>🎓 Graduation ceremony moments</li></ul><p><em>Collection of photos capturing this significant academic achievement.</em></p>"
+                    "photos": [
+                        "assets/albums/graduation/photo1.jpg",
+                        "assets/albums/graduation/photo2.jpg",
+                        "assets/albums/graduation/photo3.jpg"
+                    ],
+                    "details": "<h2>Graduation Album</h2><p><strong>Stockholm University · MSc Graduation 2025</strong></p><div class='photos'><img src='assets/albums/graduation/photo1.jpg' alt='Graduation'><img src='assets/albums/graduation/photo2.jpg' alt='Graduation'></div><ul><li>✅ MSc in Computer and Systems Sciences</li><li>📚 Academic achievements & milestones</li><li>📜 Thesis completion & defence</li><li>👥 University friends & colleagues</li><li>🎓 Graduation ceremony moments</li></ul><p><em>Collection of photos capturing this significant academic achievement.</em></p>"
                 },
                 {
                     "id": "imara_album",
@@ -374,6 +379,9 @@
                     "y": 350,
                     "operations": "2014–25",
                     "tooltip": "Imara Software Solutions Team & Professional Moments",
+                    "photos": [
+                        "assets/albums/imara/team1.jpg"
+                    ],
                     "details": "<h2>Imara Software Solutions</h2><p><strong>Professional Experience · 2014 – 2025</strong></p><ul><li>🤝 Team members & collaboration photos</li><li>🏆 Project launches & successes</li><li>🎉 Company events & celebrations</li><li>💼 Professional milestones & growth</li><li>👔 Conference presentations & networking</li></ul><p><em>11 years of professional journey, innovation, and team building at Imara Software Solutions.</em></p>"
                 }
             ],
