@@ -356,7 +356,7 @@
                     "y": 380,
                     "operations": "2025",
                     "tooltip": "Published research on GenAI and sketch-based UI",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs.</blockquote><span class='rec-date'>Master Thesis · Grade C · 30 HE credits</span></div>"
+                    "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><p><a href='http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1999524' target='_blank' rel='noopener noreferrer' style='color:var(--color-primary);'>View thesis on DiVA Portal →</a></p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs.</blockquote><span class='rec-date'>Master Thesis · Grade C · 30 HE credits</span></div>"
                 }
             ],
             "connections": [
