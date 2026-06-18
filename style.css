@@ -140,6 +140,14 @@ body {
     position: relative;
 }
 
+.nav-text {
+    display: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    color: var(--color-sidebar-icon-active);
+}
+
 .nav-item:hover {
     background-color: var(--color-sidebar-hover);
     color: var(--color-sidebar-icon-active);
@@ -313,6 +321,7 @@ body {
     .sidebar.mobile-open .nav-links { display: block; }
     .sidebar.mobile-open .nav-item { width: 100%; justify-content: flex-start; padding-left: 18px; height: 56px; }
     .sidebar.mobile-open .nav-item .nav-icon { margin-right: 12px; }
+    .sidebar.mobile-open .nav-text { display: inline-block; }
     .home-btn { display: none; }
     /* show home button in topbar on mobile */
     #homeTopBtn { display: inline-flex; margin-left: 6px; }
