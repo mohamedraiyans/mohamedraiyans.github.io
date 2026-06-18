@@ -215,6 +215,45 @@ document.addEventListener('DOMContentLoaded', async () => {
     // ---- Dashboard Helpers ----
     const heroVideoEl = document.getElementById('heroVideo');
 
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const sidebarEl = document.querySelector('.sidebar');
+    if (mobileMenuBtn && sidebarEl) {
+        mobileMenuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            sidebarEl.classList.toggle('mobile-open');
+        });
+        // close sidebar when clicking outside
+        document.addEventListener('click', (e) => {
+            if (sidebarEl.classList.contains('mobile-open') && !e.target.closest('.sidebar') && !e.target.closest('#mobileMenuBtn')) {
+                sidebarEl.classList.remove('mobile-open');
+            }
+        });
+    }
+
+    // Hero video: attempt muted autoplay on mobile, show a play/unmute button if autoplay is blocked
+    const heroPlayBtn = document.getElementById('heroPlayBtn');
+    const isMobile = ('ontouchstart' in window) || navigator.maxTouchPoints > 0 || window.innerWidth <= 800;
+    if (heroVideoEl) {
+        if (isMobile) {
+            heroVideoEl.muted = true;
+            heroVideoEl.playsInline = true;
+            heroVideoEl.play().catch(() => {
+                if (heroPlayBtn) heroPlayBtn.style.display = 'block';
+            });
+        } else {
+            heroVideoEl.muted = false;
+            heroVideoEl.play().catch(() => {});
+        }
+        if (heroPlayBtn) {
+            heroPlayBtn.addEventListener('click', () => {
+                heroVideoEl.muted = false;
+                heroVideoEl.play().catch(() => {});
+                heroPlayBtn.style.display = 'none';
+            });
+        }
+    }
+
     function showDashboard() {
         cancelGhostDemo();
         dashboardEl.classList.add('active');
