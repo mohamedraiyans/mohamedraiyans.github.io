@@ -446,7 +446,7 @@
                     "id": "imara_album",
                     "type": "action",
                     "label": "Imara Software Album",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                    "icon": "http://www.imarasoft.net/img/favicon.ico",
                     "x": 650,
                     "y": 350,
                     "operations": "2014–25",
@@ -454,9 +454,10 @@
                     "photos": [
                         "assets/albums/imara/team1.jpeg",
                         "assets/albums/imara/team2.jpg",
-                        "assets/albums/imara/team3.jpg"
+                        "assets/albums/imara/team3.jpg",
+                        "assets/albums/imara/team4.jpg"
                     ],
-                    "details": "<h2>Imara Software Solutions</h2><p><strong>Professional Experience · 2014 – 2025</strong></p><div class='photos'><img src='assets/albums/imara/team1.jpeg' alt='Imara team 1'><img src='assets/albums/imara/team2.jpg' alt='Imara team 2'><img src='assets/albums/imara/team3.jpg' alt='Imara team 3'></div><ul><li>🤝 Team members & collaboration photos</li><li>🏆 Project launches & successes</li><li>🎉 Company events & celebrations</li><li>💼 Professional milestones & growth</li><li>👔 Conference presentations & networking</li></ul><p><em>11 years of professional journey, innovation, and team building at Imara Software Solutions.</em></p>"
+                    "details": "<h2>Imara Software Solutions</h2><p><strong>Professional Experience · 2014 – 2025</strong></p><div class='photos'><img src='assets/albums/imara/team1.jpeg' alt='Imara team 1'><img src='assets/albums/imara/team2.jpg' alt='Imara team 2'><img src='assets/albums/imara/team3.jpg' alt='Imara team 3'><img src='assets/albums/imara/team4.jpg' alt='Imara team 4'></div><ul><li>🤝 Team members & collaboration photos</li><li>🏆 Project launches & successes</li><li>🎉 Company events & celebrations</li><li>💼 Professional milestones & growth</li><li>👔 Conference presentations & networking</li></ul><p><em>11 years of professional journey, innovation, and team building at Imara Software Solutions.</em></p>"
                 }
             ],
             "connections": [
