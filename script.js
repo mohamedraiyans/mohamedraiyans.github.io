@@ -369,7 +369,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             sessionStorage.setItem('heroShown', '1');
             setTimeout(() => { heroOverlay.style.display = 'none'; }, 800);
         }
-        heroCta.addEventListener('click', dismissHero);
+        if (heroCta) {
+            heroCta.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dismissHero();
+                navigateToSection('dashboard');
+            });
+        }
         setTimeout(() => heroOverlay.addEventListener('click', (e) => { if (e.target === heroOverlay) dismissHero(); }), 2500);
     }
 
