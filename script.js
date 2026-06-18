@@ -732,6 +732,51 @@ document.addEventListener('DOMContentLoaded', async () => {
         canvas.style.cursor = 'grab';
     });
 
+    // ---- Render Helpers ----
+    function openImageLightbox(src) {
+        // simple lightbox: click anywhere to close
+        const existing = document.querySelector('.image-lightbox');
+        if (existing) existing.remove();
+        const overlay = document.createElement('div');
+        overlay.className = 'image-lightbox';
+        overlay.innerHTML = `<img src="${src}" alt=""/>`;
+        overlay.addEventListener('click', () => overlay.remove());
+        document.body.appendChild(overlay);
+    }
+
+    function renderNodeDetails(node, sectionKey) {
+        const panelContent = document.getElementById('panelContent');
+        // Use photos array as source of truth. Strip any pre-existing photos block from details to avoid duplicates.
+        let detailsHtml = node.details || '';
+        detailsHtml = detailsHtml.replace(/<div class=["']photos["'][\s\S]*?<\/div>/i, '');
+        let html = '';
+        if (detailsHtml) html += detailsHtml;
+        if (node.photos && node.photos.length) {
+            html += '<div class="photo-grid">';
+            node.photos.forEach((p, i) => {
+                html += `<div class="photo-thumb"><img src="${p}" alt="${node.label} ${i+1}" data-src="${p}"></div>`;
+            });
+            html += '</div>';
+        }
+        panelContent.innerHTML = html;
+
+        // attach click handlers for thumbnails
+        panelContent.querySelectorAll('.photo-thumb img').forEach(img => {
+            img.addEventListener('click', (e) => {
+                const src = e.currentTarget.dataset.src || e.currentTarget.src;
+                openImageLightbox(src);
+            });
+        });
+
+        // open panel and focus
+        detailPanel.classList.add('open');
+        highlightConnections(node.id);
+        setTimeout(() => {
+            resizeParticleCanvas();
+            centerOnNode(node, true);
+        }, 320);
+    }
+
     // ---- Render Section ----
     function renderSection(sectionKey) {
         currentSection = sectionKey;
@@ -791,13 +836,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (selectedNodeEl) selectedNodeEl.classList.remove('selected');
                 el.classList.add('selected');
                 selectedNodeEl = el;
-                panelContent.innerHTML = node.details;
-                detailPanel.classList.add('open');
-                highlightConnections(node.id);
-                setTimeout(() => {
-                    resizeParticleCanvas();
-                    centerOnNode(node, true);
-                }, 320);
+                // Render details + photo gallery (if present)
+                renderNodeDetails(node, sectionKey);
             });
 
             el.addEventListener('keydown', (e) => {
