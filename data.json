@@ -1,6 +1,6 @@
 {
     "profile": {
-        "name": "Mohamed Raiyan",
+        "name": "Mohamed Raiyan Mohamed Fahim",
         "title": "Senior Software Engineer / AI Engineer",
         "subtitle": "Backend Engineer · Full-Stack Developer · Applied AI",
         "company": "Open to Work · Stockholm",
@@ -240,6 +240,28 @@
                     "operations": "2021+",
                     "tooltip": "Shopify, eBay, AWS — product sync & payment flow",
                     "details": "<h2>Multi-Platform Commerce Integration</h2><p>Led third-party API integrations for product sync, order processing, and secure payments.</p><ul><li>Shopify & eBay API — product & order sync</li><li>AWS services integration</li><li>Secure payment flow implementation</li><li>Automated inventory management pipeline</li></ul>"
+                },
+                {
+                    "id": "proj6",
+                    "type": "action",
+                    "label": "HubEurope Logistics Platform",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                    "x": 400,
+                    "y": 260,
+                    "operations": "2023–24",
+                    "tooltip": "UK Logistics · Backend & DevOps · AI Automation",
+                    "details": "<h2>HubEurope Logistics Platform</h2><p><strong>HubEurope</strong> · UK-based logistics company · 2023–2024</p><p>Engineered backend systems for shipment automation, courier integrations, and delivery tracking workflows on a DevOps-focused engineering team.</p><ul><li><strong>Backend Engineering:</strong> Designed scalable APIs for logistics operations</li><li><strong>Database Management:</strong> PostgreSQL optimization for high-volume shipment data</li><li><strong>API Integrations:</strong> DHL, eBay, and courier provider APIs for automated workflows</li><li><strong>AI Automation:</strong> OpenAI-powered features to automate operational workflows, process structured/semi-structured data, and reduce manual handling in support tasks</li><li><strong>DevOps & Infrastructure:</strong> Docker containerisation, CI/CD pipelines, monitoring dashboards</li><li><strong>Impact:</strong> Reduced manual operational overhead through intelligent automation and seamless platform integrations</li></ul>"
+                },
+                {
+                    "id": "proj7",
+                    "type": "action",
+                    "label": "AI Knowledge Assistant (RAG)",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "x": 800,
+                    "y": 150,
+                    "operations": "2024",
+                    "tooltip": "LLM + RAG + SQL · LangChain · Vector DB · Prompt Engineering",
+                    "details": "<h2>AI Knowledge Assistant with RAG</h2><p><a href='https://github.com/mohamedraiyans/slm-assistant-v2' target='_blank' style='color:var(--color-primary);'>View on GitHub →</a></p><p><strong>Project:</strong> slm-assistant-v2 · Generative AI + Business Intelligence · 2024</p><p>Built an enterprise knowledge assistant combining Large Language Models, Retrieval-Augmented Generation (RAG), and SQL-based business data access. Users ask questions in natural language and receive answers from both company documentation and live operational data.</p><ul><li><strong>Architecture:</strong> Python, FastAPI, LangChain orchestration</li><li><strong>Knowledge Base:</strong> Document embeddings in vector database (Pinecone/Weaviate); structured data in PostgreSQL</li><li><strong>Intelligent Routing:</strong> LangChain determines retrieval from vector DB (documents), SQL DB (metrics), or both</li><li><strong>Semantic Retrieval:</strong> Embedding-based similarity search for document-based queries</li><li><strong>SQL Generation & Validation:</strong> Automated SQL query generation with validation and security checks</li><li><strong>Prompt Engineering:</strong> Context-aware, grounded responses with optimised prompts</li><li><strong>Production Features:</strong> Query validation, response monitoring, latency optimisation, security hardening</li><li><strong>Skills Applied:</strong> Python, FastAPI, LangChain, embeddings, prompt engineering, vector databases, SQL, AI system design</li></ul>"
                 }
             ],
             "connections": [
@@ -258,6 +280,14 @@
                 {
                     "start": "proj4",
                     "end": "proj1"
+                },
+                {
+                    "start": "proj1",
+                    "end": "proj6"
+                },
+                {
+                    "start": "proj1",
+                    "end": "proj7"
                 }
             ]
         },
