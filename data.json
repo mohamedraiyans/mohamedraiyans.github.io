@@ -68,7 +68,7 @@
                     "id": "ai",
                     "type": "action",
                     "label": "AI / LLMs",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
                     "x": 260,
                     "y": 120,
                     "operations": "AI/ML",
