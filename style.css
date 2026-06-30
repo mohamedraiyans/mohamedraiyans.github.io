@@ -250,14 +250,26 @@ body {
 /* Mobile-specific controls */
 .mobile-menu-btn {
     display: none;
-    background: none;
-    border: none;
-    color: var(--color-text-main);
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
     font-size: 20px;
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+.mobile-menu-btn:hover {
+    background: rgba(0, 0, 0, 0.65);
 }
 
 /* Sidebar mobile open state */
@@ -295,6 +307,8 @@ body {
     .mobile-menu-btn { display: inline-flex; }
     .topbar-left { gap: 8px; justify-content: flex-start; }
     .zoom-controls { bottom: 16px; right: 16px; transform: scale(0.9); transform-origin: bottom right; }
+    /* Remove sidebar top offset — button is now inside video, not a topbar */
+    .sidebar.mobile-open { top: 0; height: 100vh; }
 }
 
 /* Backdrop shown when mobile sidebar is open */
