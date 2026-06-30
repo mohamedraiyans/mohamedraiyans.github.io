@@ -336,11 +336,13 @@
         "recommendations": {
             "title": "Key Achievements",
             "card": {
-                "description": "Production scale, AI automation wins, and published research — highlights from 9+ years.",
+                "description": "Production scale, AI/LLM wins, cloud leadership, published research — highlights from 9+ years.",
                 "tags": [
                     "500K req/day",
                     "60% Automation",
-                    "Published Research"
+                    "LLM/RAG",
+                    "Azure",
+                    "Published"
                 ]
             },
             "nodes": [
@@ -349,59 +351,123 @@
                     "type": "trigger",
                     "label": "Mohamed Raiyan",
                     "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-                    "x": 400,
-                    "y": 150,
+                    "x": 500,
+                    "y": 60,
                     "operations": "9+ yrs",
                     "tooltip": "Senior Software Engineer · Stockholm, Sweden",
-                    "details": "<h2>Mohamed Raiyan</h2><p>Senior Software Engineer · Eskilstuna, Sweden</p><ul><li>📧 raiyanmfm@gmail.com</li><li>📞 +46 767 516 351</li><li><a href='https://www.linkedin.com/in/mohamedraiyans/' target='_blank' style='color:var(--color-primary);'>LinkedIn Profile →</a></li><li>MSc Computer and Systems Sciences — Stockholm University 2025</li></ul>"
+                    "details": "<h2>Mohamed Raiyan</h2><p>Senior Software Engineer / AI Engineer · Eskilstuna, Sweden</p><ul><li>📧 raiyanmfm@gmail.com</li><li>📞 +46 767 516 351</li><li><a href='https://www.linkedin.com/in/raiyans/' target='_blank' style='color:var(--color-primary);'>LinkedIn Profile →</a></li><li>MSc Computer and Systems Sciences — Stockholm University 2025</li><li>BSc Information Technology — University of Greenwich 2014</li></ul>"
                 },
                 {
                     "id": "rec1",
                     "type": "action",
                     "label": "500K API req/day",
                     "icon": "",
-                    "x": 160,
-                    "y": 380,
+                    "x": 100,
+                    "y": 280,
                     "operations": "Scale",
                     "tooltip": "Designed backend systems at production scale",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>⚡</div><h2>Production Scale</h2><p class='rec-title'>Imara Software Solutions · 2019–2025</p><blockquote class='rec-quote'>Designed and maintained scalable backend systems handling over 500,000 API requests daily across distributed cloud infrastructure.</blockquote><span class='rec-date'>Senior Software Engineer · 6 years</span></div>"
+                    "details": "<div class='rec-card'><div class='rec-avatar'>⚡</div><h2>Production Scale</h2><p class='rec-title'>Imara Software Solutions · 2019–2026</p><blockquote class='rec-quote'>Designed and maintained scalable backend systems handling over 500,000 API requests daily across distributed cloud infrastructure using Python (Django, FastAPI) and Node.js.</blockquote><span class='rec-date'>Senior Software Engineer · 7 years</span></div>"
+                },
+                {
+                    "id": "rec_llm",
+                    "type": "action",
+                    "label": "LLM / AI Integration",
+                    "icon": "",
+                    "x": 340,
+                    "y": 280,
+                    "operations": "AI/LLM",
+                    "tooltip": "OpenAI, Claude, LangChain, RAG, Fine-tuning, Multimodal AI",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>🧠</div><h2>LLM & AI Engineering</h2><p class='rec-title'>OpenAI · Claude · LangChain · RAG · Fine-tuning · Multimodal AI</p><blockquote class='rec-quote'>Developed and integrated AI-powered applications using Large Language Models (LLMs) and Small Language Models (SLMs), including OpenAI APIs, Claude, and GitHub Copilot. Built RAG pipelines, applied prompt engineering, fine-tuning, and multimodal AI for intelligent data processing and automation workflows.</blockquote><span class='rec-date'>Senior Software Engineer · Imara Software Solutions · 2019–2026</span></div>"
+                },
+                {
+                    "id": "rec_devops",
+                    "type": "action",
+                    "label": "Docker & CI/CD",
+                    "icon": "",
+                    "x": 660,
+                    "y": 280,
+                    "operations": "DevOps",
+                    "tooltip": "Containerised microservices with automated CI/CD pipelines",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>🐳</div><h2>Docker & CI/CD Pipelines</h2><p class='rec-title'>Imara Software Solutions · HubEurope · 2019–2026</p><blockquote class='rec-quote'>Containerized microservices with Docker and integrated CI/CD pipelines for automated testing, isolated environments, and smooth deployments across staging and production. Also implemented monitoring dashboards to track API uptime, service health, and error rates using custom analytics tools.</blockquote><span class='rec-date'>Senior Software Engineer</span></div>"
+                },
+                {
+                    "id": "rec_azure",
+                    "type": "action",
+                    "label": "Azure Cloud",
+                    "icon": "",
+                    "x": 900,
+                    "y": 280,
+                    "operations": "Cloud",
+                    "tooltip": "Azure cloud infrastructure automation & deployment",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>☁️</div><h2>Azure Cloud Infrastructure</h2><p class='rec-title'>Imara Software Solutions · 2019–2026</p><blockquote class='rec-quote'>Contributed to cloud infrastructure automation and deployment processes, working with Azure services and containerized environments to support scalable production systems handling 500K+ daily requests.</blockquote><span class='rec-date'>Senior Software Engineer</span></div>"
                 },
                 {
                     "id": "rec2",
                     "type": "action",
                     "label": "60% Automation Gain",
                     "icon": "",
-                    "x": 400,
-                    "y": 410,
-                    "operations": "AI/ML",
+                    "x": 100,
+                    "y": 480,
+                    "operations": "Impact",
                     "tooltip": "LLM integration reduced manual work by 60%",
                     "details": "<div class='rec-card'><div class='rec-avatar'>🤖</div><h2>AI-Driven Automation</h2><p class='rec-title'>FastAPI + OpenAI + LLM/SLM</p><blockquote class='rec-quote'>Spearheaded development of high-performance Python services integrating OpenAI APIs and LLMs to process and classify high-volume data streams, reducing manual intervention by 60%.</blockquote><span class='rec-date'>Senior Software Engineer · Imara Software Solutions</span></div>"
+                },
+                {
+                    "id": "rec_integrations",
+                    "type": "action",
+                    "label": "Shopify / eBay / AWS",
+                    "icon": "",
+                    "x": 340,
+                    "y": 480,
+                    "operations": "APIs",
+                    "tooltip": "Third-party API integrations for e-commerce & logistics",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>🔗</div><h2>Multi-Platform Integrations</h2><p class='rec-title'>Shopify · eBay · AWS · DHL · 2019–2026</p><blockquote class='rec-quote'>Led integration of third-party APIs including Shopify, eBay, and AWS services for product sync, order processing, and secure payment flows. Also integrated DHL and courier provider APIs for HubEurope logistics automation workflows.</blockquote><span class='rec-date'>Senior Software Engineer</span></div>"
+                },
+                {
+                    "id": "rec_leadership",
+                    "type": "action",
+                    "label": "Team Leadership",
+                    "icon": "",
+                    "x": 580,
+                    "y": 480,
+                    "operations": "Agile",
+                    "tooltip": "Mentored junior devs, led sprint planning, Agile/Scrum",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>👥</div><h2>Team Leadership & Agile</h2><p class='rec-title'>Imara Software Solutions · 2019–2026</p><blockquote class='rec-quote'>Mentored junior developers, led sprint planning, and ensured Agile/Scrum practices were followed consistently across the engineering team. Drove a culture of code quality and continuous improvement.</blockquote><span class='rec-date'>Senior Software Engineer · 7 years</span></div>"
+                },
+                {
+                    "id": "rec_lowcode",
+                    "type": "action",
+                    "label": "Low-Code Automation",
+                    "icon": "",
+                    "x": 820,
+                    "y": 480,
+                    "operations": "make.com",
+                    "tooltip": "make.com, Bubble, Airtable — internal automation",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>⚙️</div><h2>Low-Code & No-Code Automation</h2><p class='rec-title'>make.com · Bubble · Airtable · 2019–2026</p><blockquote class='rec-quote'>Accelerated internal tool development and business process automation by leveraging low-code/no-code platforms (make.com, Bubble) and managing structured data within NoSQL stores and tools like Airtable — significantly reducing manual operational overhead.</blockquote><span class='rec-date'>Senior Software Engineer · Imara Software Solutions</span></div>"
                 },
                 {
                     "id": "rec3",
                     "type": "action",
                     "label": "MSc Thesis Published",
                     "icon": "",
-                    "x": 640,
-                    "y": 380,
+                    "x": 500,
+                    "y": 660,
                     "operations": "2025",
                     "tooltip": "Published research on GenAI and sketch-based UI",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><p><a href='http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1999524' target='_blank' rel='noopener noreferrer' style='color:var(--color-primary);'>View thesis on DiVA Portal →</a></p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs.</blockquote><span class='rec-date'>Master Thesis · Grade C · 30 HE credits</span></div>"
+                    "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><p><a href='http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1999524' target='_blank' rel='noopener noreferrer' style='color:var(--color-primary);'>View thesis on DiVA Portal →</a></p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs. Published as independent thesis, Advanced level · 30 HE credits.</blockquote><span class='rec-date'>Master Thesis · Grade C · Stockholm University 2025</span></div>"
                 }
             ],
             "connections": [
-                {
-                    "start": "rec_source",
-                    "end": "rec1"
-                },
-                {
-                    "start": "rec_source",
-                    "end": "rec2"
-                },
-                {
-                    "start": "rec_source",
-                    "end": "rec3"
-                }
+                { "start": "rec_source", "end": "rec1" },
+                { "start": "rec_source", "end": "rec_llm" },
+                { "start": "rec_source", "end": "rec_devops" },
+                { "start": "rec_source", "end": "rec_azure" },
+                { "start": "rec1", "end": "rec2" },
+                { "start": "rec_llm", "end": "rec_integrations" },
+                { "start": "rec_devops", "end": "rec_leadership" },
+                { "start": "rec_azure", "end": "rec_lowcode" },
+                { "start": "rec_integrations", "end": "rec3" },
+                { "start": "rec_leadership", "end": "rec3" }
             ]
         },
         "portfolio": {
