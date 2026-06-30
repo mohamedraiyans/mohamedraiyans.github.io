@@ -258,7 +258,7 @@
                     "y": 390,
                     "operations": "2025",
                     "tooltip": "Sketch-to-code UI generation using Generative AI",
-                    "details": "<h2>Programming Through Sketching</h2><p><em>Non-Linguistic Interaction with Generative AI</em> — MSc Thesis, Stockholm University (Grade: C)</p><ul><li>Novel sketch-based approach to UI programming with GenAI</li><li>Multimodal input: hand-drawn sketches → HTML/CSS/React code</li><li>Design Science Research (DSR) framework</li><li>Enhanced usability, creativity & developer control</li><li>Published: DiVA portal, Stockholm University 2025</li></ul>"
+                    "details": "<h2>Programming Through Sketching</h2><p><em>Non-Linguistic Interaction with Generative AI</em> — MSc Thesis, Stockholm University</p><p><a href='https://www.diva-portal.org/smash/record.jsf?pid=diva2:1999524' target='_blank' style='color:var(--color-primary);'>View Published Thesis →</a></p><ul><li>Novel sketch-based approach to UI programming with GenAI</li><li>Multimodal input: hand-drawn sketches → HTML/CSS/React code</li><li>Design Science Research (DSR) framework</li><li>Enhanced usability, creativity & developer control</li><li>Published: DiVA portal, Stockholm University 2025</li></ul>"
                 },
                 {
                     "id": "proj3",
@@ -375,7 +375,7 @@
                     "y": 280,
                     "operations": "2023–25",
                     "tooltip": "Stockholm University — ML, AI, IoT, Cyber Forensics",
-                    "details": "<h2>Master's Degree — Computer and Systems Sciences</h2><p><strong>Stockholm University</strong> · Sep 2023 – Oct 2025</p><ul><li>Machine Learning, AI, Data Mining</li><li>IoT Services, Information Security, Cyber Forensics</li><li>IT Management, ERP Systems, Research Methodology</li><li>IoT Labs: Raspberry Pi, CircuitPython, MQTT</li><li><strong>Thesis:</strong> Programming Through Sketching — Non-Linguistic Interaction with Generative AI (Grade: C)</li><li>Tools: React, Python, Java, Raspberry Pi, Android</li></ul>"
+                    "details": "<h2>Master's Degree — Computer and Systems Sciences</h2><p><strong>Stockholm University</strong> · Sep 2023 – Oct 2025</p><ul><li>Machine Learning, AI, Data Mining</li><li>IoT Services, Information Security, Cyber Forensics</li><li>IT Management, ERP Systems, Research Methodology</li><li>IoT Labs: Raspberry Pi, CircuitPython, MQTT</li><li><strong>Thesis:</strong> <a href='https://www.diva-portal.org/smash/record.jsf?pid=diva2:1999524' target='_blank' style='color:var(--color-primary);'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI →</a></li><li>Tools: React, Python, Java, Raspberry Pi, Android</li></ul>"
                 }
             ],
             "connections": [
@@ -506,7 +506,7 @@
                     "y": 660,
                     "operations": "2025",
                     "tooltip": "Published research on GenAI and sketch-based UI",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><p><a href='http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1999524' target='_blank' rel='noopener noreferrer' style='color:var(--color-primary);'>View thesis on DiVA Portal →</a></p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs. Published as independent thesis, Advanced level · 30 HE credits.</blockquote><span class='rec-date'>Master Thesis · Grade C · Stockholm University 2025</span></div>"
+                    "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><p><a href='http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1999524' target='_blank' rel='noopener noreferrer' style='color:var(--color-primary);'>View thesis on DiVA Portal →</a></p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs. Published as independent thesis, Advanced level · 30 HE credits.</blockquote><span class='rec-date'>Master Thesis · Stockholm University 2025</span></div>"
                 }
             ],
             "connections": [
