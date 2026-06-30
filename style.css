@@ -250,13 +250,13 @@ body {
 /* Mobile-specific controls */
 .mobile-menu-btn {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 14px;
     left: 14px;
-    z-index: 20;
-    background: rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     color: #ffffff;
     font-size: 20px;
@@ -269,7 +269,7 @@ body {
     transition: background 0.2s;
 }
 .mobile-menu-btn:hover {
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.70);
 }
 
 /* Sidebar mobile open state */
@@ -321,12 +321,12 @@ body {
 }
 .mobile-menu-backdrop.active { display: block; }
 
-/* Ensure sidebar doesn't cover topbar on mobile when opened */
+/* Sidebar open state on mobile — full height since there's no topbar */
 @media (max-width: 800px) {
     .sidebar.mobile-open {
         left: 0;
-        top: 64px;
-        height: calc(100% - 64px);
+        top: 0;
+        height: 100vh;
         width: 220px;
         box-shadow: 2px 8px 30px rgba(0,0,0,0.2);
         transform: translateX(0);
