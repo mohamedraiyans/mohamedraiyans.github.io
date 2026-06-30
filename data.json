@@ -44,12 +44,14 @@
         "skills": {
             "title": "Core Skills & Tools",
             "card": {
-                "description": "Python, FastAPI, Django, Docker, LLMs, React, Laravel, PostgreSQL, Azure and more.",
+                "description": "Python, JS, PHP, FastAPI, Django, React, Laravel, LangChain, RAG, Docker, Azure, PostgreSQL and more.",
                 "tags": [
-                    "Backend",
-                    "AI/ML",
+                    "Python",
+                    "AI/LLM",
                     "Full-Stack",
-                    "DevOps"
+                    "DevOps",
+                    "ML",
+                    "Cloud"
                 ]
             },
             "nodes": [
@@ -59,77 +61,125 @@
                     "label": "Python",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
                     "x": -20,
-                    "y": 256,
+                    "y": 280,
                     "operations": "Expert",
                     "tooltip": "Primary language — FastAPI, Django, AI/ML pipelines",
-                    "details": "<h2>Python</h2><p>Primary language across all backend and AI work. Used in production systems handling 500K+ daily API requests.</p><ul><li>FastAPI — high-performance REST APIs</li><li>Django — backend web applications</li><li>OpenAI API & LLM/SLM integration</li><li>NLP & image recognition pipelines</li><li>Data processing & automation scripts</li></ul>"
+                    "details": "<h2>Python</h2><p>Primary language across all backend and AI work. Used in production systems handling 500K+ daily API requests.</p><ul><li>FastAPI — high-performance REST APIs</li><li>Django — backend web applications</li><li>scikit-learn, pandas, NumPy — data science & ML</li><li>OpenAI API & LLM/SLM integration</li><li>NLP & image recognition pipelines</li><li>Data processing & automation scripts</li></ul>"
+                },
+                {
+                    "id": "javascript",
+                    "type": "action",
+                    "label": "JS · PHP · Java",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                    "x": -20,
+                    "y": 490,
+                    "operations": "Languages",
+                    "tooltip": "JavaScript, PHP, Java — multi-language development",
+                    "details": "<h2>JavaScript · PHP · Java</h2><p>Multi-language proficiency across frontend, backend, and enterprise development.</p><ul><li><strong>JavaScript</strong> — Node.js, React, AJAX/JSON, admin panels</li><li><strong>PHP</strong> — Laravel, CodeIgniter, WordPress CMS, REST APIs</li><li><strong>Java</strong> — IoT services, Android development (MSc coursework)</li><li>Git-based CI/CD deployment workflows</li><li>SEO-optimised, mobile-responsive web delivery</li></ul>"
                 },
                 {
                     "id": "ai",
                     "type": "action",
                     "label": "AI / LLMs",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
-                    "x": 260,
-                    "y": 120,
+                    "x": 270,
+                    "y": 100,
                     "operations": "AI/ML",
-                    "tooltip": "OpenAI, LLM/SLM integration, NLP, image recognition",
-                    "details": "<h2>AI & LLM Engineering</h2><p>Integrated large and small language models into production services, reducing manual intervention by 60%.</p><ul><li>OpenAI API integration</li><li>LLM/SLM — classify & process high-volume data</li><li>Custom NLP models</li><li>Image recognition pipelines</li><li>MSc Thesis: Sketch-based UI generation with GenAI</li></ul>"
+                    "tooltip": "OpenAI, Claude, LLM/SLM integration, NLP, Multimodal AI",
+                    "details": "<h2>AI & LLM Engineering</h2><p>Integrated large and small language models into production services, reducing manual intervention by 60%.</p><ul><li>OpenAI API & Claude integration</li><li>GitHub Copilot — AI-assisted development</li><li>LLM/SLM — classify & process high-volume data</li><li>Multimodal AI — text, image, sketch inputs</li><li>Custom NLP models & image recognition pipelines</li><li>MSc Thesis: Sketch-based UI generation with GenAI</li></ul>"
+                },
+                {
+                    "id": "langchain",
+                    "type": "action",
+                    "label": "LangChain · RAG",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "x": 560,
+                    "y": 60,
+                    "operations": "RAG",
+                    "tooltip": "LangChain, RAG, Prompt Engineering, Fine-tuning",
+                    "details": "<h2>LangChain · RAG · Prompt Engineering</h2><p>Built enterprise AI systems combining LLMs with retrieval-augmented generation and custom prompt strategies.</p><ul><li><strong>LangChain</strong> — orchestration for LLM pipelines</li><li><strong>RAG</strong> — vector DB + document retrieval (Pinecone/Weaviate)</li><li><strong>Prompt Engineering</strong> — context-aware, grounded responses</li><li><strong>Fine-tuning</strong> — custom model adaptation</li><li>Embedding-based semantic search</li><li>SQL generation & validation in AI assistants</li></ul>"
                 },
                 {
                     "id": "backend",
                     "type": "action",
                     "label": "Backend & APIs",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-                    "x": 260,
-                    "y": 390,
+                    "x": 270,
+                    "y": 420,
                     "operations": "APIs",
                     "tooltip": "FastAPI, Django, Node.js, REST APIs",
-                    "details": "<h2>Backend Engineering</h2><p>Designed and maintained scalable backend systems serving 500K+ API requests daily across distributed cloud infrastructure.</p><ul><li>FastAPI & Django (Python)</li><li>Node.js — internal tools & admin panels</li><li>RESTful API design & integration</li><li>Shopify, eBay, AWS third-party APIs</li><li>Microservices architecture</li></ul>"
+                    "details": "<h2>Backend Engineering</h2><p>Designed and maintained scalable backend systems serving 500K+ API requests daily across distributed cloud infrastructure.</p><ul><li>FastAPI & Django (Python)</li><li>Node.js — internal tools & admin panels</li><li>RESTful API design & integration</li><li>Shopify, eBay, AWS, DHL third-party APIs</li><li>Microservices architecture</li></ul>"
+                },
+                {
+                    "id": "frameworks",
+                    "type": "action",
+                    "label": "React · Laravel",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                    "x": 270,
+                    "y": 620,
+                    "operations": "Full-Stack",
+                    "tooltip": "React, Laravel, CodeIgniter, WordPress — full-stack frameworks",
+                    "details": "<h2>Full-Stack Frameworks</h2><p>End-to-end web development using modern JavaScript and PHP frameworks, from admin dashboards to e-commerce platforms.</p><ul><li><strong>React</strong> — admin panels, dashboards, SPA interfaces</li><li><strong>Laravel</strong> — full-stack PHP, REST APIs, e-commerce</li><li><strong>CodeIgniter</strong> — lightweight PHP MVC applications</li><li><strong>WordPress</strong> — custom CMS & plugin development</li><li>HTML, CSS, JavaScript — mobile-responsive, SEO-optimised</li></ul>"
+                },
+                {
+                    "id": "ml",
+                    "type": "action",
+                    "label": "ML & Data Science",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+                    "x": 560,
+                    "y": 440,
+                    "operations": "ML",
+                    "tooltip": "scikit-learn, pandas, NumPy — Classification & Clustering",
+                    "details": "<h2>ML & Data Science</h2><p>Applied machine learning techniques for data classification, clustering, and intelligent pipeline automation.</p><ul><li><strong>scikit-learn</strong> — Classification, Clustering, model training</li><li><strong>pandas</strong> — data manipulation & analysis</li><li><strong>NumPy</strong> — numerical computing</li><li>Data Mining & pattern recognition (MSc coursework)</li><li>ML-driven automation integrated into production systems</li></ul>"
                 },
                 {
                     "id": "database",
                     "type": "action",
                     "label": "Databases",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-                    "x": 540,
-                    "y": 256,
+                    "x": 560,
+                    "y": 260,
                     "operations": "2TB+",
-                    "tooltip": "PostgreSQL, MySQL — 2TB+ databases managed",
-                    "details": "<h2>Databases</h2><p>Managed high-volume databases exceeding 2TB with automated backups and performance tuning.</p><ul><li>PostgreSQL & MySQL — 2TB+ production DBs</li><li>Automated backups & optimised indexing</li><li>Schema migrations & cross-site data syncing</li><li>NoSQL (Airtable, document stores)</li></ul>"
+                    "tooltip": "PostgreSQL, MySQL, NoSQL, Airtable — 2TB+ managed",
+                    "details": "<h2>Databases</h2><p>Managed high-volume databases exceeding 2TB with automated backups and performance tuning.</p><ul><li>PostgreSQL & MySQL — 2TB+ production DBs</li><li>NoSQL — document stores & unstructured data</li><li>Airtable — structured business data management</li><li>Automated backups & optimised indexing</li><li>Schema migrations & cross-site data syncing</li><li>Vector databases (Pinecone/Weaviate) for RAG</li></ul>"
                 },
                 {
                     "id": "devops",
                     "type": "action",
                     "label": "Docker / DevOps",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-                    "x": 805,
-                    "y": 256,
+                    "x": 860,
+                    "y": 180,
                     "operations": "DevOps",
-                    "tooltip": "Docker, CI/CD, Azure, monitoring dashboards",
-                    "details": "<h2>Docker & DevOps</h2><p>Containerised microservices and integrated Docker into CI/CD pipelines for consistent, automated deployments.</p><ul><li>Docker & Docker Compose — microservices</li><li>CI/CD pipelines — automated testing & deploys</li><li>Azure cloud services & infrastructure</li><li>Monitoring dashboards — uptime, health, errors</li><li>GitHub Actions & Git workflows</li></ul>"
+                    "tooltip": "Docker, CI/CD, GitHub Actions, monitoring dashboards",
+                    "details": "<h2>Docker & DevOps</h2><p>Containerised microservices and integrated Docker into CI/CD pipelines for consistent, automated deployments.</p><ul><li>Docker & Docker Compose — microservices</li><li>CI/CD pipelines — automated testing & deploys</li><li>GitHub Actions & Git workflows</li><li>Monitoring dashboards — uptime, health, error rates</li><li>Agile/Scrum — sprint planning & team leadership</li></ul>"
+                },
+                {
+                    "id": "azure",
+                    "type": "action",
+                    "label": "Azure · Cloud",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+                    "x": 860,
+                    "y": 400,
+                    "operations": "Cloud",
+                    "tooltip": "Azure cloud infrastructure, deployment automation",
+                    "details": "<h2>Azure & Cloud Infrastructure</h2><p>Cloud infrastructure automation and deployment processes supporting scalable production systems.</p><ul><li><strong>Azure</strong> — cloud services, infrastructure management</li><li>Containerised environments on Azure</li><li>Cloud deployment automation & scaling</li><li>Staging & production environment management</li><li>AWS integrations — S3, services, API connections</li></ul>"
                 }
             ],
             "connections": [
-                {
-                    "start": "python",
-                    "end": "ai"
-                },
-                {
-                    "start": "python",
-                    "end": "backend"
-                },
-                {
-                    "start": "backend",
-                    "end": "database"
-                },
-                {
-                    "start": "ai",
-                    "end": "database"
-                },
-                {
-                    "start": "database",
-                    "end": "devops"
-                }
+                { "start": "python", "end": "ai" },
+                { "start": "python", "end": "backend" },
+                { "start": "python", "end": "javascript" },
+                { "start": "ai", "end": "langchain" },
+                { "start": "ai", "end": "database" },
+                { "start": "langchain", "end": "devops" },
+                { "start": "backend", "end": "database" },
+                { "start": "backend", "end": "frameworks" },
+                { "start": "javascript", "end": "frameworks" },
+                { "start": "database", "end": "ml" },
+                { "start": "database", "end": "devops" },
+                { "start": "devops", "end": "azure" },
+                { "start": "ml", "end": "azure" }
             ]
         },
         "experience": {
