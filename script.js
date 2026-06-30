@@ -101,7 +101,7 @@ function populateAboutModal(profile) {
         body.innerHTML = `
             <div class="about-info-grid">
                 <div class="about-info-item"><span class="about-info-label">📍 Location</span><span>${profile.location}</span></div>
-                <div class="about-info-item"><span class="about-info-label">🌍 Currently Based</span><span>${profile.nationality}</span></div>
+                <div class="about-info-item"><span class="about-info-label">🪪 Work Authorization</span><span>${profile.nationality}</span></div>
                 <div class="about-info-item"><span class="about-info-label">🎓 Education</span><span>${profile.dob}</span></div>
                 <div class="about-info-item"><span class="about-info-label">🗣️ Languages</span><span>${profile.languages}</span></div>
             </div>
