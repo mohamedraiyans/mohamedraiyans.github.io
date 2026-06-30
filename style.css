@@ -1285,6 +1285,10 @@ body.tooltips-disabled .node-tooltip { display: none !important; }
 .linkedin-card .contact-card-icon { background-color: #bbdefb; }
 .linkedin-card:hover { background-color: #bbdefb; }
 
+.github-card { background-color: #f3e8ff; color: #5b21b6; border-color: #c4b5fd; }
+.github-card .contact-card-icon { background-color: #ddd6fe; }
+.github-card:hover { background-color: #ddd6fe; }
+
 /* Dark mode contact cards */
 [data-theme="dark"] .phone-card { background-color: rgba(30,70,30,0.3); color: #81c784; border-color: rgba(129,199,132,0.3); }
 [data-theme="dark"] .phone-card .contact-card-icon { background-color: rgba(129,199,132,0.15); }
@@ -1297,6 +1301,10 @@ body.tooltips-disabled .node-tooltip { display: none !important; }
 [data-theme="dark"] .linkedin-card { background-color: rgba(13,40,80,0.3); color: #64b5f6; border-color: rgba(100,181,246,0.3); }
 [data-theme="dark"] .linkedin-card .contact-card-icon { background-color: rgba(100,181,246,0.15); }
 [data-theme="dark"] .linkedin-card:hover { background-color: rgba(13,40,80,0.5); }
+
+[data-theme="dark"] .github-card { background-color: rgba(60,20,100,0.3); color: #c4b5fd; border-color: rgba(196,181,253,0.3); }
+[data-theme="dark"] .github-card .contact-card-icon { background-color: rgba(196,181,253,0.15); }
+[data-theme="dark"] .github-card:hover { background-color: rgba(60,20,100,0.5); }
 
 /* ==============================
    Recommendations
