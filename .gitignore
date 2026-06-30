@@ -3,3 +3,6 @@ api/
 
 # Backups created by the editor
 api/backups/
+
+# Claude Code local config
+.claude/
