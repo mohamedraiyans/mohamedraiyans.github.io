@@ -247,29 +247,32 @@ body {
     transform: rotate(30deg);
 }
 
-/* Mobile-specific controls */
+/* Mobile hamburger — always fixed, always on top, direct body child */
 .mobile-menu-btn {
     display: none;
     position: fixed;
     top: 14px;
     left: 14px;
-    z-index: 200;
-    background: rgba(0, 0, 0, 0.50);
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.55);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     color: #ffffff;
     font-size: 20px;
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 10px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
     transition: background 0.2s;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    pointer-events: all;
 }
-.mobile-menu-btn:hover {
-    background: rgba(0, 0, 0, 0.70);
+.mobile-menu-btn:active {
+    background: rgba(0, 0, 0, 0.80);
 }
 
 /* Sidebar mobile open state */

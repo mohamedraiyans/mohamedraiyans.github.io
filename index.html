@@ -19,6 +19,9 @@
     <!-- lead_pilot embed removed (localhost URL) -->
 </head>
 <body>
+    <!-- Mobile hamburger — direct body child so nothing can block or intercept it -->
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">☰</button>
+
     <!-- Hero Intro Overlay -->
     <div class="hero-overlay" id="heroOverlay">
         <div class="hero-name" id="heroName">Mohamed Raiyan</div>
@@ -75,8 +78,6 @@
 
         <!-- Main Workspace -->
         <div class="workspace">
-            <!-- Mobile menu button — fixed overlay so video never intercepts clicks -->
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">☰</button>
             <!-- Canvas Area -->
             <!-- Dashboard Section -->
             <div class="dashboard" id="dashboard">
