@@ -10,7 +10,7 @@ const SECTION_ICONS = {
     experience: '<svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     projects: '<svg viewBox="0 0 24 24" fill="none" width="28" height="28"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M19 12h3M2 12h3M12 2v3M12 19v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
     education: '<svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M12 14l9-5-9-5-9 5 9 5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
-    recommendations: '<svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M21 15a4 4 0 01-4 4H7l-4 4V7a4 4 0 014-4h10a4 4 0 014 4v8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    achievements: '<svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M21 15a4 4 0 01-4 4H7l-4 4V7a4 4 0 014-4h10a4 4 0 014 4v8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     portfolio: '<svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 };
 
@@ -19,7 +19,7 @@ const SECTION_ACCENT_VARS = {
     experience: '--accent-experience',
     projects: '--accent-projects',
     education: '--accent-education',
-    recommendations: '--accent-recommendations',
+    achievements: '--accent-achievements',
     portfolio: '--accent-portfolio'
 };
 
@@ -944,7 +944,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 iconHtml = `<div class="node-icon"><img src="${node.icon}" alt="${node.label}" style="width:100%;height:100%;object-fit:contain;border-radius:50%;"></div>`;
             } else {
                 const initials = node.label.split(' ').map(w => w[0]).join('').substring(0, 2);
-                iconHtml = `<div class="node-icon" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--accent-recommendations),var(--color-primary));border-radius:50%;color:#fff;font-weight:700;font-size:14px;">${initials}</div>`;
+                iconHtml = `<div class="node-icon" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--accent-achievements),var(--color-primary));border-radius:50%;color:#fff;font-weight:700;font-size:14px;">${initials}</div>`;
             }
 
             el.innerHTML = `${opCount}${iconHtml}<div class="node-label">${node.label}</div>${tooltipHtml}`;
@@ -1194,7 +1194,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
 
-        const colors = { skills: '#7C3AED', experience: '#2563EB', projects: '#059669', education: '#D97706', recommendations: '#DB2777' };
+        const colors = { skills: '#7C3AED', experience: '#2563EB', projects: '#059669', education: '#D97706', achievements: '#DB2777' };
         const nc = colors[currentSection] || '#5200FF';
         data.nodes.forEach(n => {
             const nx = ((n.x + 32 - minX) / rx) * 160;
@@ -1247,7 +1247,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (e.key === 'ArrowUp') { translateY += step; updateTransform(); }
         if (e.key === 'ArrowDown') { translateY -= step; updateTransform(); }
 
-        const sections = ['dashboard', 'skills', 'experience', 'projects', 'education', 'recommendations'];
+        const sections = ['dashboard', 'skills', 'experience', 'projects', 'education', 'achievements'];
         const idx = ['1', '2', '3', '4', '5', '6'].indexOf(e.key);
         if (idx !== -1 && !e.ctrlKey && !e.altKey && !e.metaKey) {
             if (!['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {

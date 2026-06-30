@@ -383,7 +383,7 @@
                 }
             ]
         },
-        "recommendations": {
+        "achievements": {
             "title": "Key Achievements",
             "card": {
                 "description": "Production scale, AI/LLM wins, cloud leadership, published research — highlights from 9+ years.",

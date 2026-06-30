@@ -29,7 +29,7 @@
     --accent-experience: #2563EB;
     --accent-projects: #059669;
     --accent-education: #D97706;
-    --accent-recommendations: #DB2777;
+    --accent-achievements: #DB2777;
     --accent-portfolio: #9333EA;
 
     /* Node glassmorphism */
@@ -545,7 +545,7 @@ body {
 .node-module[data-section="experience"]::before { --section-accent: var(--accent-experience); }
 .node-module[data-section="projects"]::before { --section-accent: var(--accent-projects); }
 .node-module[data-section="education"]::before { --section-accent: var(--accent-education); }
-.node-module[data-section="recommendations"]::before { --section-accent: var(--accent-recommendations); }
+.node-module[data-section="achievements"]::before { --section-accent: var(--accent-achievements); }
 
 .node-module[data-section]::before {
     content: '';
@@ -1276,7 +1276,7 @@ body.tooltips-disabled .node-tooltip { display: none !important; }
     display: flex; align-items: center; justify-content: center;
     color: #fff; font-weight: 700; font-size: 18px;
     margin-bottom: 16px;
-    background: linear-gradient(135deg, var(--accent-recommendations), var(--color-primary));
+    background: linear-gradient(135deg, var(--accent-achievements), var(--color-primary));
 }
 
 .panel-content .rec-card h2 { font-size: 18px; margin-bottom: 4px; color: var(--color-text-main); }
