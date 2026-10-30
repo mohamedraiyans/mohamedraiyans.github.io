@@ -261,10 +261,10 @@
                     "id": "job0",
                     "type": "action",
                     "label": "Freelance Software / AI Engineer",
-                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "icon": "https://cdn.simpleicons.org/huggingface",
                     "x": 950,
                     "y": 300,
-                    "operations": "2026–Now",
+                    "operations": "2026+",
                     "tooltip": "Remote · RAG, clinical AI, SaaS · Apr 2026 – Present",
                     "details": "<h2>Freelance Software Engineer / AI Engineer</h2><p><strong>Remote</strong> · Apr 2026 – Present</p><p>Delivering remote client engagements alongside independent AI engineering projects, end to end from architecture through deployment.</p><ul><li><strong>Knowledge assistant</strong> (TypeScript, NestJS, Next.js, Chroma, Redis, PostgreSQL) — multi-provider RAG with local embeddings</li><li><strong>Clinical decision-support assistant</strong> (Python, FastAPI, React, Azure OpenAI) — LLM drafts checked by deterministic safety rules</li><li><strong>Speech recognition service</strong> (faster-whisper, CTranslate2) — local int8 CPU model, ~2x faster decoding at matching accuracy</li><li><strong>Document analysis application</strong> (FastAPI, React, Azure OpenAI & Document Intelligence)</li><li><strong>Multi-tenant SaaS backend</strong> (FastAPI, PostgreSQL, Celery, Redis)</li></ul>"
                 }
