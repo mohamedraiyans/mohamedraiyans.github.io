@@ -5,7 +5,7 @@
         "subtitle": "Backend Engineer · Full-Stack Developer · Applied AI",
         "company": "Open to Work · Stockholm",
         "tagline": "Building scalable backend systems, cloud-based APIs, and AI-driven solutions — 9+ years turning complex problems into clean, reliable software.",
-        "bio": "Senior Software Engineer with 9+ years of experience building scalable backend systems, cloud-based applications, and high-performance APIs. Skilled in Python, JavaScript, and PHP, with a strong track record in distributed systems, microservices, and AI-driven automation. Holds an MSc in Computer and Systems Sciences from Stockholm University. Currently based in Eskilstuna, Sweden and seeking a software engineering role to build reliable, innovative products.",
+        "bio": "Senior Software Engineer with 9+ years of experience building scalable backend systems, cloud-based applications, and high-performance APIs. Skilled in Python, TypeScript, JavaScript, and PHP, with a strong track record in distributed systems, microservices, and AI-driven automation. Currently freelancing as a Software / AI Engineer, building RAG, clinical decision-support, document-analysis and multi-tenant SaaS systems with LLMs and locally deployed small models. Holds an MSc in Computer and Systems Sciences from Stockholm University. Currently based in Eskilstuna, Sweden and seeking a software engineering role to build reliable, innovative products.",
         "location": "Eskilstuna, Sweden",
         "nationality": "Job Seeker Visa · Valid until Dec 2026 · Open to Sponsorship 🇸🇪",
         "dob": "MSc Computer & Systems Sciences · Stockholm University",
@@ -46,7 +46,7 @@
         "skills": {
             "title": "Core Skills & Tools",
             "card": {
-                "description": "Python, JS, PHP, FastAPI, Django, React, Laravel, LangChain, RAG, Docker, Azure, PostgreSQL and more.",
+                "description": "Python, TypeScript, FastAPI, NestJS, React, Next.js, LangChain, RAG, Azure OpenAI, Docker, PostgreSQL and more.",
                 "tags": [
                     "Python",
                     "AI/LLM",
@@ -71,13 +71,13 @@
                 {
                     "id": "javascript",
                     "type": "action",
-                    "label": "JS · PHP · Java",
+                    "label": "TS · JS · PHP · Java",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
                     "x": -20,
                     "y": 490,
                     "operations": "Languages",
-                    "tooltip": "JavaScript, PHP, Java — multi-language development",
-                    "details": "<h2>JavaScript · PHP · Java</h2><p>Multi-language proficiency across frontend, backend, and enterprise development.</p><ul><li><strong>JavaScript</strong> — Node.js, React, AJAX/JSON, admin panels</li><li><strong>PHP</strong> — Laravel, CodeIgniter, WordPress CMS, REST APIs</li><li><strong>Java</strong> — IoT services, Android development (MSc coursework)</li><li>Git-based CI/CD deployment workflows</li><li>SEO-optimised, mobile-responsive web delivery</li></ul>"
+                    "tooltip": "TypeScript, JavaScript, PHP, Java — multi-language development",
+                    "details": "<h2>TypeScript · JavaScript · PHP · Java</h2><p>Multi-language proficiency across frontend, backend, and enterprise development.</p><ul><li><strong>TypeScript</strong> — NestJS, Next.js, React (RAG assistant, clinic UI)</li><li><strong>JavaScript</strong> — Node.js, React, AJAX/JSON, admin panels</li><li><strong>PHP</strong> — Laravel, CodeIgniter, WordPress CMS, REST APIs</li><li><strong>Java</strong> — IoT services, Android development (MSc coursework)</li><li>Git-based CI/CD deployment workflows</li></ul>"
                 },
                 {
                     "id": "ai",
@@ -87,8 +87,8 @@
                     "x": 270,
                     "y": 100,
                     "operations": "AI/ML",
-                    "tooltip": "OpenAI, Claude, LLM/SLM integration, NLP, Multimodal AI",
-                    "details": "<h2>AI & LLM Engineering</h2><p>Integrated large and small language models into production services, reducing manual intervention by 60%.</p><ul><li>OpenAI API & Claude integration</li><li>GitHub Copilot — AI-assisted development</li><li>LLM/SLM — classify & process high-volume data</li><li>Multimodal AI — text, image, sketch inputs</li><li>Custom NLP models & image recognition pipelines</li><li>MSc Thesis: Sketch-based UI generation with GenAI</li></ul>"
+                    "tooltip": "Azure OpenAI, OpenAI, Claude, local & quantized models, Multimodal AI",
+                    "details": "<h2>AI & LLM Engineering</h2><p>Integrated large and small language models into production services, reducing manual intervention by 60%.</p><ul><li>Azure OpenAI, OpenAI & Claude APIs — multi-provider architecture switchable at runtime</li><li>Local & quantized model deployment — faster-whisper (CTranslate2, int8, CPU)</li><li>LLM-drafted outputs validated by deterministic safety rules and Pydantic schemas</li><li>Hand-written tool-calling agent loop (read-only)</li><li>Multimodal AI — text, image, sketch inputs</li><li>MSc Thesis: Sketch-based UI generation with GenAI</li></ul>"
                 },
                 {
                     "id": "langchain",
@@ -98,8 +98,8 @@
                     "x": 560,
                     "y": 60,
                     "operations": "RAG",
-                    "tooltip": "LangChain, RAG, Prompt Engineering, Fine-tuning",
-                    "details": "<h2>LangChain · RAG · Prompt Engineering</h2><p>Built enterprise AI systems combining LLMs with retrieval-augmented generation and custom prompt strategies.</p><ul><li><strong>LangChain</strong> — orchestration for LLM pipelines</li><li><strong>RAG</strong> — vector DB + document retrieval (Pinecone/Weaviate)</li><li><strong>Prompt Engineering</strong> — context-aware, grounded responses</li><li><strong>Fine-tuning</strong> — custom model adaptation</li><li>Embedding-based semantic search</li><li>SQL generation & validation in AI assistants</li></ul>"
+                    "tooltip": "LangChain, LCEL, RAG, ChromaDB, Prompt Engineering",
+                    "details": "<h2>LangChain · RAG · Prompt Engineering</h2><p>Built AI systems combining LLMs with retrieval-augmented generation and custom prompt strategies.</p><ul><li><strong>LangChain</strong> — custom retriever + LCEL generation chain</li><li><strong>RAG</strong> — ChromaDB vector store, structure-aware chunking, per-document chunk caps for retrieval diversity</li><li><strong>Local embeddings</strong> — computed on-machine, never sent to a provider</li><li><strong>Prompt Engineering</strong> — context-aware, grounded responses</li><li>FAQ answer caching with Redis frequency ranking</li><li>SQL generation & validation in AI assistants</li></ul>"
                 },
                 {
                     "id": "backend",
@@ -109,19 +109,19 @@
                     "x": 270,
                     "y": 420,
                     "operations": "APIs",
-                    "tooltip": "FastAPI, Django, Node.js, REST APIs",
-                    "details": "<h2>Backend Engineering</h2><p>Designed and maintained scalable backend systems serving 500K+ API requests daily across distributed cloud infrastructure.</p><ul><li>FastAPI & Django (Python)</li><li>Node.js — internal tools & admin panels</li><li>RESTful API design & integration</li><li>Shopify, eBay, AWS, DHL third-party APIs</li><li>Microservices architecture</li></ul>"
+                    "tooltip": "FastAPI, Django, NestJS, Node.js, REST APIs",
+                    "details": "<h2>Backend Engineering</h2><p>Designed and maintained scalable backend systems serving 500K+ API requests daily across distributed cloud infrastructure.</p><ul><li>FastAPI & Django (Python), NestJS (TypeScript)</li><li>Node.js — internal tools & admin panels</li><li>RESTful API design & integration</li><li>Shopify, eBay, AWS, DHL third-party APIs</li><li>Background jobs — Celery and BullMQ with retry, backoff & permanent-failure handling</li><li>Microservices architecture</li></ul>"
                 },
                 {
                     "id": "frameworks",
                     "type": "action",
-                    "label": "React · Laravel",
+                    "label": "React · Next.js · Laravel",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
                     "x": 270,
                     "y": 620,
                     "operations": "Full-Stack",
-                    "tooltip": "React, Laravel, CodeIgniter, WordPress — full-stack frameworks",
-                    "details": "<h2>Full-Stack Frameworks</h2><p>End-to-end web development using modern JavaScript and PHP frameworks, from admin dashboards to e-commerce platforms.</p><ul><li><strong>React</strong> — admin panels, dashboards, SPA interfaces</li><li><strong>Laravel</strong> — full-stack PHP, REST APIs, e-commerce</li><li><strong>CodeIgniter</strong> — lightweight PHP MVC applications</li><li><strong>WordPress</strong> — custom CMS & plugin development</li><li>HTML, CSS, JavaScript — mobile-responsive, SEO-optimised</li></ul>"
+                    "tooltip": "React, Next.js, Laravel, CodeIgniter — full-stack frameworks",
+                    "details": "<h2>Full-Stack Frameworks</h2><p>End-to-end web development using modern JavaScript and PHP frameworks, from admin dashboards to e-commerce platforms.</p><ul><li><strong>React / Next.js</strong> — dashboards, SPA interfaces, App Router</li><li><strong>Laravel</strong> — full-stack PHP, REST APIs, e-commerce</li><li><strong>CodeIgniter</strong> — lightweight PHP MVC applications</li><li><strong>WordPress</strong> — custom CMS & plugin development</li><li>HTML, CSS, JavaScript — mobile-responsive, SEO-optimised</li></ul>"
                 },
                 {
                     "id": "ml",
@@ -142,8 +142,8 @@
                     "x": 560,
                     "y": 260,
                     "operations": "2TB+",
-                    "tooltip": "PostgreSQL, MySQL, NoSQL, Airtable — 2TB+ managed",
-                    "details": "<h2>Databases</h2><p>Managed high-volume databases exceeding 2TB with automated backups and performance tuning.</p><ul><li>PostgreSQL & MySQL — 2TB+ production DBs</li><li>NoSQL — document stores & unstructured data</li><li>Airtable — structured business data management</li><li>Automated backups & optimised indexing</li><li>Schema migrations & cross-site data syncing</li><li>Vector databases (Pinecone/Weaviate) for RAG</li></ul>"
+                    "tooltip": "PostgreSQL, MySQL, ChromaDB, Redis, Airtable — 2TB+ managed",
+                    "details": "<h2>Databases</h2><p>Managed high-volume databases exceeding 2TB with automated backups and performance tuning.</p><ul><li>PostgreSQL & MySQL — 2TB+ production DBs</li><li>PostgreSQL Row-Level Security & Alembic migrations for multi-tenant SaaS</li><li>ChromaDB — vector store for RAG</li><li>Redis — caching & job queues</li><li>NoSQL & Airtable — structured business data</li><li>Automated backups & optimised indexing</li></ul>"
                 },
                 {
                     "id": "devops",
@@ -154,7 +154,7 @@
                     "y": 180,
                     "operations": "DevOps",
                     "tooltip": "Docker, CI/CD, GitHub Actions, monitoring dashboards",
-                    "details": "<h2>Docker & DevOps</h2><p>Containerised microservices and integrated Docker into CI/CD pipelines for consistent, automated deployments.</p><ul><li>Docker & Docker Compose — microservices</li><li>CI/CD pipelines — automated testing & deploys</li><li>GitHub Actions & Git workflows</li><li>Monitoring dashboards — uptime, health, error rates</li><li>Agile/Scrum — sprint planning & team leadership</li></ul>"
+                    "details": "<h2>Docker & DevOps</h2><p>Containerised microservices and integrated Docker into CI/CD pipelines for consistent, automated deployments.</p><ul><li>Docker & Docker Compose — microservices</li><li>CI/CD pipelines — automated testing & deploys</li><li>GitHub Actions — 200+ automated tests on every push and on a 6-hour schedule, with failure alerts</li><li>Monitoring dashboards — uptime, health, error rates</li><li>Agile/Scrum — sprint planning & team leadership</li></ul>"
                 },
                 {
                     "id": "azure",
@@ -169,25 +169,64 @@
                 }
             ],
             "connections": [
-                { "start": "python", "end": "ai" },
-                { "start": "python", "end": "backend" },
-                { "start": "python", "end": "javascript" },
-                { "start": "ai", "end": "langchain" },
-                { "start": "ai", "end": "database" },
-                { "start": "langchain", "end": "devops" },
-                { "start": "backend", "end": "database" },
-                { "start": "backend", "end": "frameworks" },
-                { "start": "javascript", "end": "frameworks" },
-                { "start": "database", "end": "ml" },
-                { "start": "database", "end": "devops" },
-                { "start": "devops", "end": "azure" },
-                { "start": "ml", "end": "azure" }
+                {
+                    "start": "python",
+                    "end": "ai"
+                },
+                {
+                    "start": "python",
+                    "end": "backend"
+                },
+                {
+                    "start": "python",
+                    "end": "javascript"
+                },
+                {
+                    "start": "ai",
+                    "end": "langchain"
+                },
+                {
+                    "start": "ai",
+                    "end": "database"
+                },
+                {
+                    "start": "langchain",
+                    "end": "devops"
+                },
+                {
+                    "start": "backend",
+                    "end": "database"
+                },
+                {
+                    "start": "backend",
+                    "end": "frameworks"
+                },
+                {
+                    "start": "javascript",
+                    "end": "frameworks"
+                },
+                {
+                    "start": "database",
+                    "end": "ml"
+                },
+                {
+                    "start": "database",
+                    "end": "devops"
+                },
+                {
+                    "start": "devops",
+                    "end": "azure"
+                },
+                {
+                    "start": "ml",
+                    "end": "azure"
+                }
             ]
         },
         "experience": {
             "title": "Work Experience",
             "card": {
-                "description": "9+ years at Imara Software Solutions — from PHP developer to Senior Software Engineer & AI specialist.",
+                "description": "Freelance AI engineering today; 9+ years at Imara Software Solutions — from PHP developer to Senior Software Engineer & AI specialist.",
                 "tags": [
                     "Python",
                     "FastAPI",
@@ -201,39 +240,55 @@
                     "type": "trigger",
                     "label": "Senior Software Engineer",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-                    "x": 650,
+                    "x": 550,
                     "y": 300,
-                    "operations": "2019–25",
+                    "operations": "2019–26",
                     "tooltip": "Imara Software Solutions · Python / AI",
-                    "details": "<h2>Senior Software Engineer / AI Engineer</h2><p><strong>Imara Software Solutions</strong> · Jan 2019 – Mar 2026</p><ul><li>Designed scalable backend systems handling 500K+ daily API requests across distributed cloud infrastructure</li><li>Built FastAPI services integrating OpenAI APIs and LLMs — reduced manual intervention by 60%</li><li>Python (Django, FastAPI), Node.js — React admin panels and internal tools</li><li>Containerised microservices with Docker and integrated CI/CD pipelines for automated deployments</li><li>Managed 2TB+ PostgreSQL and MySQL databases with automated backups and optimised indexing</li><li>Integrated Shopify, eBay, and AWS APIs for product sync, order processing and payments</li><li>Azure cloud infrastructure automation and deployment</li><li>Mentored junior developers and led sprint planning (Agile/Scrum)</li><li>Low-code automation with Make.com, Bubble and Airtable</li></ul>"
+                    "details": "<h2>Senior Software Engineer / AI Engineer</h2><p><strong>Imara Software Solutions</strong> · Jan 2019 – Mar 2026</p><ul><li>Designed scalable backend systems handling 500K+ daily API requests across distributed cloud infrastructure</li><li>Built FastAPI services integrating OpenAI APIs and LLMs — reduced manual intervention by 60%</li><li>Python (Django, FastAPI), Node.js — React admin panels and internal tools</li><li>Containerised microservices with Docker and integrated CI/CD pipelines for automated deployments</li><li>Managed 2TB+ PostgreSQL and MySQL databases with automated backups and optimised indexing</li><li>Integrated Shopify, eBay, and AWS APIs for product sync, order processing and payments</li><li>Developed AI-powered applications with OpenAI & Claude APIs, LangChain, RAG and prompt engineering</li><li>Azure cloud infrastructure automation and deployment</li><li>Mentored junior developers and led sprint planning (Agile/Scrum)</li><li>Low-code automation with Make.com, Bubble and Airtable</li></ul>"
                 },
                 {
                     "id": "job2",
                     "type": "action",
                     "label": "Software Developer",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
-                    "x": 200,
+                    "x": 150,
                     "y": 300,
                     "operations": "2014–18",
                     "tooltip": "Imara Software Solutions · PHP / Laravel",
                     "details": "<h2>Software Developer</h2><p><strong>Imara Software Solutions</strong> · Nov 2014 – Dec 2018</p><ul><li>Built custom CMS solutions using PHP (Laravel, CodeIgniter) and WordPress</li><li>Dynamic web apps with HTML, CSS, JavaScript</li><li>Admin panels & e-commerce: product catalogues, cart, checkout flows</li><li>REST APIs — connected backend to frontend via AJAX/JSON</li><li>Git-based CI deployment workflows</li><li>MySQL — schema migrations & cross-site data syncing</li><li>SEO-optimised, mobile-responsive websites for SME clients</li></ul>"
+                },
+                {
+                    "id": "job0",
+                    "type": "action",
+                    "label": "Freelance Software / AI Engineer",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "x": 950,
+                    "y": 300,
+                    "operations": "2026–Now",
+                    "tooltip": "Remote · RAG, clinical AI, SaaS · Apr 2026 – Present",
+                    "details": "<h2>Freelance Software Engineer / AI Engineer</h2><p><strong>Remote</strong> · Apr 2026 – Present</p><p>Delivering remote client engagements alongside independent AI engineering projects, end to end from architecture through deployment.</p><ul><li><strong>Knowledge assistant</strong> (TypeScript, NestJS, Next.js, Chroma, Redis, PostgreSQL) — multi-provider RAG with local embeddings</li><li><strong>Clinical decision-support assistant</strong> (Python, FastAPI, React, Azure OpenAI) — LLM drafts checked by deterministic safety rules</li><li><strong>Speech recognition service</strong> (faster-whisper, CTranslate2) — local int8 CPU model, ~2x faster decoding at matching accuracy</li><li><strong>Document analysis application</strong> (FastAPI, React, Azure OpenAI & Document Intelligence)</li><li><strong>Multi-tenant SaaS backend</strong> (FastAPI, PostgreSQL, Celery, Redis)</li></ul>"
                 }
             ],
             "connections": [
                 {
                     "start": "job2",
                     "end": "job1"
+                },
+                {
+                    "start": "job1",
+                    "end": "job0"
                 }
             ]
         },
         "projects": {
             "title": "Major Projects",
             "card": {
-                "description": "AI automation pipelines, IoT systems, sketch-based GenAI thesis, and full-stack platforms.",
+                "description": "RAG assistants, clinical decision-support AI, document analysis, multi-tenant SaaS, IoT and a sketch-based GenAI thesis.",
                 "tags": [
                     "Python",
+                    "TypeScript",
+                    "RAG",
                     "FastAPI",
-                    "React",
                     "GenAI"
                 ]
             },
@@ -307,13 +362,57 @@
                 {
                     "id": "proj7",
                     "type": "action",
-                    "label": "AI Knowledge Assistant (RAG)",
+                    "label": "AI Knowledge Assistant v2",
                     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-                    "x": 800,
-                    "y": 150,
+                    "x": 830,
+                    "y": 130,
                     "operations": "2026",
-                    "tooltip": "LLM + RAG + SQL · LangChain · Vector DB · Prompt Engineering",
+                    "tooltip": "Earlier Python prototype — LLM + RAG + SQL · LangChain",
                     "details": "<h2>AI Knowledge Assistant with RAG</h2><p><a href='https://github.com/mohamedraiyans/slm-assistant-v2' target='_blank' style='color:var(--color-primary);'>View on GitHub →</a></p><p><strong>Project:</strong> slm-assistant-v2 · Generative AI + Business Intelligence · 2026</p><p>Built an enterprise knowledge assistant combining Large Language Models, Retrieval-Augmented Generation (RAG), and SQL-based business data access. Users ask questions in natural language and receive answers from both company documentation and live operational data.</p><ul><li><strong>Architecture:</strong> Python, FastAPI, LangChain orchestration</li><li><strong>Knowledge Base:</strong> Document embeddings in vector database (Pinecone/Weaviate); structured data in PostgreSQL</li><li><strong>Intelligent Routing:</strong> LangChain determines retrieval from vector DB (documents), SQL DB (metrics), or both</li><li><strong>Semantic Retrieval:</strong> Embedding-based similarity search for document-based queries</li><li><strong>SQL Generation & Validation:</strong> Automated SQL query generation with validation and security checks</li><li><strong>Prompt Engineering:</strong> Context-aware, grounded responses with optimised prompts</li><li><strong>Production Features:</strong> Query validation, response monitoring, latency optimisation, security hardening</li><li><strong>Skills Applied:</strong> Python, FastAPI, LangChain, embeddings, prompt engineering, vector databases, SQL, AI system design</li></ul>"
+                },
+                {
+                    "id": "proj8",
+                    "type": "action",
+                    "label": "AI Knowledge Assistant v3 (RAG)",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                    "x": 1080,
+                    "y": 110,
+                    "operations": "2026",
+                    "tooltip": "NestJS · Next.js · LangChain · Chroma · multi-provider LLM",
+                    "details": "<h2>SLM Assistant v3 — Multi-Tenant RAG Assistant</h2><p><a href='https://github.com/mohamedraiyans/slm-assistant-v3' target='_blank' style='color:var(--color-primary);'>View on GitHub →</a></p><p><strong>2026</strong> · A from-scratch TypeScript rewrite of the v2 Python prototype: users sign in with Google, upload documents and chat with an LLM that answers from retrieved context. Admins control which LLM providers are available.</p><ul><li><strong>Stack:</strong> Turborepo monorepo, NestJS + Prisma, Next.js 16 / React 19 / Tailwind 4, PostgreSQL, Chroma, Redis</li><li><strong>RAG:</strong> structure-aware chunking with per-document chunk caps for retrieval diversity; custom LangChain BaseRetriever over Chroma and an LCEL generation chain</li><li><strong>Multi-provider:</strong> three model providers (Groq open-weight, Azure OpenAI, Anthropic) switchable at runtime; embeddings computed locally with Hugging Face Transformers</li><li><strong>Security:</strong> Google OAuth2 + JWT httpOnly cookie, RBAC, AES-256-GCM encrypted provider API keys at rest</li><li><strong>Performance:</strong> Redis FAQ answer cache with frequency ranking, version-counter cache invalidation, provider rate-limit header tracking</li><li><strong>Speech service:</strong> Python FastAPI + faster-whisper (CTranslate2, int8, CPU) with BullMQ background processing — retries, backoff and permanent-failure handling</li></ul>"
+                },
+                {
+                    "id": "proj9",
+                    "type": "action",
+                    "label": "Clinic AI — Decision Support",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+                    "x": 1080,
+                    "y": 290,
+                    "operations": "2026",
+                    "tooltip": "FastAPI · React · Azure OpenAI · deterministic safety checks",
+                    "details": "<h2>Clinic AI — Clinical Decision-Support Assistant</h2><p><a href='https://github.com/mohamedraiyans/clinic_ai' target='_blank' style='color:var(--color-primary);'>View on GitHub →</a></p><p><strong>2026</strong> · The doctor types a complaint and exam findings; the AI asks for missing information or drafts likely conditions and 2–3 medicines. The doctor reviews, edits and approves, and the app issues a digitally signed PDF prescription. <em>The AI drafts, the doctor decides.</em></p><ul><li><strong>Stack:</strong> Python, FastAPI, SQLAlchemy, React + TypeScript, PostgreSQL, Docker Compose</li><li><strong>LLM drafting:</strong> medicine suggestions restricted to the clinic formulary; Azure OpenAI primary with Groq fallback</li><li><strong>Deterministic safety rules:</strong> allergies, pregnancy, age and drug interactions checked in plain code, not by the AI</li><li><strong>Agent:</strong> read-only tool-calling assistant with a hand-written agent loop</li><li><strong>Privacy & security:</strong> de-identified model calls, Google OAuth with doctor allowlist, audit logging</li><li><strong>Prescriptions:</strong> HMAC-signed PDFs with QR verification</li><li><strong>Quality:</strong> 200+ automated tests in GitHub Actions on every push and every 6 hours, with automatic failure alerts</li></ul>"
+                },
+                {
+                    "id": "proj10",
+                    "type": "action",
+                    "label": "DocScan AI — Document Analysis",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+                    "x": 830,
+                    "y": 340,
+                    "operations": "2026",
+                    "tooltip": "Azure OpenAI · Document Intelligence · FastAPI · React",
+                    "details": "<h2>DocScan AI — Document Analysis Application</h2><p><a href='https://github.com/mohamedraiyans/doc-scan' target='_blank' style='color:var(--color-primary);'>View on GitHub →</a></p><p><strong>2026</strong> · Upload a resume and receive an AI-generated score, summary, extracted skills and concrete improvement suggestions through a designed interface.</p><ul><li><strong>Pipeline:</strong> file upload → Azure AI Document Intelligence (OCR) → Azure OpenAI (scoring, summary, suggestions) → PostgreSQL persistence → Azure Blob Storage backup</li><li><strong>Stack:</strong> Python, FastAPI, SQLAlchemy, React (Vite), PostgreSQL</li><li><strong>Auth:</strong> JWT (OAuth2 password flow) and Google Sign-In, bcrypt password hashing, admin user management</li><li><strong>Infra:</strong> containerised with Docker Compose (Postgres + backend + nginx-served frontend)</li></ul>"
+                },
+                {
+                    "id": "proj11",
+                    "type": "action",
+                    "label": "DropshipAI — Multi-Tenant SaaS",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "x": 1080,
+                    "y": 470,
+                    "operations": "2026",
+                    "tooltip": "FastAPI · Postgres RLS · Celery · Shopify / eBay · PayPal",
+                    "details": "<h2>DropshipAI — Multi-Channel Listing & Inventory Sync</h2><p><a href='https://github.com/mohamedraiyans/drop-shipping' target='_blank' style='color:var(--color-primary);'>View on GitHub →</a></p><p><strong>2026</strong> · A multi-tenant SaaS where a seller creates one product listing and publishes it, AI-optimised per platform, to Shopify, eBay and their own website — with stock synced across every channel whenever a sale happens.</p><ul><li><strong>Stack:</strong> FastAPI, PostgreSQL with Alembic, Celery + Redis, Docker Compose</li><li><strong>Tenant isolation:</strong> shared database with two layers — a scoped-query guard in app code and Postgres Row-Level Security policies</li><li><strong>AI listing enrichment:</strong> Azure OpenAI output validated against Pydantic schemas, falling back to seller text if invalid</li><li><strong>Channel adapters:</strong> common interface with Shopify and eBay implementations, extensible to new marketplaces</li><li><strong>Stock sync:</strong> webhooks as primary path, 5-minute Celery poll as backup; nightly reorder alerts from sales-velocity math</li><li><strong>Billing & security:</strong> PayPal Subscriptions with plan-based channel limits, Google OAuth, Fernet-encrypted channel credentials</li></ul>"
                 }
             ],
             "connections": [
@@ -340,6 +439,26 @@
                 {
                     "start": "proj1",
                     "end": "proj7"
+                },
+                {
+                    "start": "proj1",
+                    "end": "proj8"
+                },
+                {
+                    "start": "proj8",
+                    "end": "proj7"
+                },
+                {
+                    "start": "proj1",
+                    "end": "proj9"
+                },
+                {
+                    "start": "proj1",
+                    "end": "proj10"
+                },
+                {
+                    "start": "proj5",
+                    "end": "proj11"
                 }
             ]
         },
@@ -429,7 +548,7 @@
                     "y": 280,
                     "operations": "AI/LLM",
                     "tooltip": "OpenAI, Claude, LangChain, RAG, Fine-tuning, Multimodal AI",
-                    "details": "<div class='rec-card'><div class='rec-avatar'>🧠</div><h2>LLM & AI Engineering</h2><p class='rec-title'>OpenAI · Claude · LangChain · RAG · Fine-tuning · Multimodal AI</p><blockquote class='rec-quote'>Developed and integrated AI-powered applications using Large Language Models (LLMs) and Small Language Models (SLMs), including OpenAI APIs, Claude, and GitHub Copilot. Built RAG pipelines, applied prompt engineering, fine-tuning, and multimodal AI for intelligent data processing and automation workflows.</blockquote><span class='rec-date'>Senior Software Engineer · Imara Software Solutions · 2019–2026</span></div>"
+                    "details": "<div class='rec-card'><div class='rec-avatar'>🧠</div><h2>LLM & AI Engineering</h2><p class='rec-title'>OpenAI · Claude · LangChain · RAG · Fine-tuning · Multimodal AI</p><blockquote class='rec-quote'>Developed and integrated AI-powered applications using Large Language Models (LLMs) and Small Language Models (SLMs), including Azure OpenAI, OpenAI and Claude APIs. Built RAG pipelines with LangChain and ChromaDB, multi-provider LLM architectures, local quantized model deployment, prompt engineering and multimodal AI for intelligent data processing and automation workflows.</blockquote><span class='rec-date'>Senior Software Engineer · Imara Software Solutions · 2019–2026</span></div>"
                 },
                 {
                     "id": "rec_devops",
@@ -507,19 +626,64 @@
                     "operations": "2025",
                     "tooltip": "Published research on GenAI and sketch-based UI",
                     "details": "<div class='rec-card'><div class='rec-avatar'>📄</div><h2>Published Research</h2><p class='rec-title'>Stockholm University · DiVA Portal · 2025</p><p><a href='http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1999524' target='_blank' rel='noopener noreferrer' style='color:var(--color-primary);'>View thesis on DiVA Portal →</a></p><blockquote class='rec-quote'>Programming Through Sketching — Non-Linguistic Interaction with Generative AI. Explored a novel sketch-based approach to programming user interfaces using generative AI, enabling users to generate HTML/CSS/React code through multimodal hand-drawn sketch inputs. Published as independent thesis, Advanced level · 30 HE credits.</blockquote><span class='rec-date'>Master Thesis · Stockholm University 2025</span></div>"
+                },
+                {
+                    "id": "rec_tests",
+                    "type": "action",
+                    "label": "200+ Automated Tests",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                    "x": 900,
+                    "y": 660,
+                    "operations": "CI",
+                    "tooltip": "GitHub Actions on every push and every 6 hours",
+                    "details": "<div class='rec-card'><div class='rec-avatar'>✅</div><h2>Tested & Measured AI Systems</h2><p class='rec-title'>Freelance · 2026</p><blockquote class='rec-quote'>Clinical AI assistant backed by 200+ automated tests in GitHub Actions on every push and every 6 hours with failure alerts. Speech recognition service tuned by measurement rather than library defaults — roughly 2x faster decoding at matching accuracy, plus a further 2.2x from correct thread configuration.</blockquote><span class='rec-date'>Software / AI Engineer · 2026</span></div>"
                 }
             ],
             "connections": [
-                { "start": "rec_source", "end": "rec1" },
-                { "start": "rec_source", "end": "rec_llm" },
-                { "start": "rec_source", "end": "rec_devops" },
-                { "start": "rec_source", "end": "rec_azure" },
-                { "start": "rec1", "end": "rec2" },
-                { "start": "rec_llm", "end": "rec_integrations" },
-                { "start": "rec_devops", "end": "rec_leadership" },
-                { "start": "rec_azure", "end": "rec_lowcode" },
-                { "start": "rec_integrations", "end": "rec3" },
-                { "start": "rec_leadership", "end": "rec3" }
+                {
+                    "start": "rec_source",
+                    "end": "rec1"
+                },
+                {
+                    "start": "rec_source",
+                    "end": "rec_llm"
+                },
+                {
+                    "start": "rec_source",
+                    "end": "rec_devops"
+                },
+                {
+                    "start": "rec_source",
+                    "end": "rec_azure"
+                },
+                {
+                    "start": "rec1",
+                    "end": "rec2"
+                },
+                {
+                    "start": "rec_llm",
+                    "end": "rec_integrations"
+                },
+                {
+                    "start": "rec_devops",
+                    "end": "rec_leadership"
+                },
+                {
+                    "start": "rec_azure",
+                    "end": "rec_lowcode"
+                },
+                {
+                    "start": "rec_integrations",
+                    "end": "rec3"
+                },
+                {
+                    "start": "rec_leadership",
+                    "end": "rec3"
+                },
+                {
+                    "start": "rec_leadership",
+                    "end": "rec_tests"
+                }
             ]
         },
         "portfolio": {
