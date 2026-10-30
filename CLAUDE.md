@@ -55,7 +55,7 @@ Node `type` values: `"trigger"` (left-most/start node, styled differently) or `"
 Node `details` field accepts raw HTML rendered into the right-side panel on click.
 
 ### Sections (nav order)
-`dashboard` → `skills` → `experience` → `projects` → `education` → `recommendations` → `portfolio`
+`dashboard` → `skills` → `experience` → `projects` → `education` → `achievements` → `portfolio`
 
 Section keys in `data.json` must match the `data-section` attributes used in `index.html` and `script.js`.
 
@@ -77,6 +77,12 @@ Only edit `index.html` for structural changes (new modals, new HTML sections, sc
 ## Assets
 
 - `assets/videos/intro_3.mp4` — hero background video (autoplay muted)
-- `assets/Raiyan_Fahim_Resume.pdf` — downloadable resume (linked from hero + contact modal)
+- `assets/Raiyan_Fahim_Resume.pdf` — downloadable resume (linked from hero + contact modal). Replace this file whenever the CV changes; browsers cache it, so hard-refresh to verify
 - `assets/albums/` — photo galleries (graduation, imara) rendered inside node detail panels
 - `profile.jpg` — profile photo used in sidebar and About modal; also serves as video poster fallback
+
+## Content Status (last updated 2026-10-30)
+
+- Experience: Freelance Software / AI Engineer (Apr 2026 – Present, node `job0`), Imara Senior Engineer (2019–26), Imara Developer (2014–18).
+- Projects include 2026 work with GitHub links: `proj8` slm-assistant-v3, `proj9` clinic_ai, `proj10` doc-scan, `proj11` drop-shipping (`proj7` is the earlier v2 prototype).
+- Node icons: devicon URLs for AWS wordmarks return 403 — use `https://cdn.simpleicons.org/<name>` for missing logos.
