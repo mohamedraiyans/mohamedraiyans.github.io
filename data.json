@@ -261,7 +261,7 @@
                     "id": "job0",
                     "type": "action",
                     "label": "Freelance Software / AI Engineer",
-                    "icon": "https://cdn.simpleicons.org/huggingface",
+                    "icon": "https://cdn.simpleicons.org/claude",
                     "x": 950,
                     "y": 300,
                     "operations": "2026+",
